@@ -42,7 +42,7 @@ export default () => {
           color="focus:ring-raisin-black-600"
         />
       </div>
-      <div className="flex justify-end font-medium text-raisin-black-600 md:hidden">
+      <div className=" w-screen flex justify-center font-medium text-raisin-black-600 md:hidden">
         <Links
           link="/"
           text={<Home/>}

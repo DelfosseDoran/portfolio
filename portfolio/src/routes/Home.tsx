@@ -4,14 +4,14 @@ import Links from '../components/Link';
 export default () => {
   return (
     <main>
-      <div className="flex justify-center ">
-        <div className="w-2/4">
-          <h1 className=" mr-10 mb-12 p-2 text-5xl font-bold text-raisin-black-700">
+      <div className=" md:flex justify-center ">
+        <div className="md:w-2/4">
+          <h1 className=" mr-10 mb-12 p-2 text-2xl md:text-5xl font-bold text-raisin-black-700">
             Hey I am Doran Delfosse and with this website you will learn more
             about me.
           </h1>
-          <div className="-ml-1/4 flex w-screen bg-cool-grey ">
-            <div className="ml-1/8 flex w-2/4 p-2 font-medium">
+          <div className="md:-ml-1/4 flex w-screen bg-cool-grey ">
+            <div className="md:ml-1/8 md:flex md:w-2/4 p-2 font-medium">
               <div>
                 <h2 className="mb-2 text-3xl font-medium">Schools:</h2>
                 <div className="pl-2">
