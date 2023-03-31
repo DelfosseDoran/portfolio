@@ -3,7 +3,7 @@ import{ Home, Camera, Network, Paintbrush } from 'lucide-react'
 
 export default () => {
   return (
-    <header className="pb-4">
+    <header className="md:pb-4 pb-2">
       <div className="hidden justify-end font-medium text-raisin-black-600 md:flex">
         <Links
           link="/"
@@ -45,38 +45,38 @@ export default () => {
       <div className=" w-screen flex justify-center font-medium text-raisin-black-600 md:hidden">
         <Links
           link="/"
-          text={<Home/>}
+          text={<Home />}
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
-          padding="p-8"
-          paddingbot="pb-4"
+          padding="sm:p-8 p-4"
+          paddingbot="ms:pb-4 pb-2"
           color="focus:ring-raisin-black-600"
         />
         <Links
           link="/projects"
-          text={<Network/>}
+          text={<Network />}
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
-          padding="p-8"
-          paddingbot="pb-4"
+          padding="sm:p-8 p-4"
+          paddingbot="ms:pb-4 pb-2"
           color="focus:ring-raisin-black-600"
         />
         <Links
           link="/digital-art"
-          text={<Paintbrush/>}
+          text={<Paintbrush />}
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
-          padding="p-8"
-          paddingbot="pb-4"
+          padding="sm:p-8 p-4"
+          paddingbot="ms:pb-4 pb-2"
           color="focus:ring-raisin-black-600"
         />
         <Links
           link="/photography"
-          text={<Camera/>}
+          text={<Camera />}
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
-          padding="p-8"
-          paddingbot="pb-4"
+          padding="sm:p-8 p-4"
+          paddingbot="ms:pb-4 pb-2"
           color="focus:ring-raisin-black-600"
         />
       </div>
