@@ -8,6 +8,7 @@ import Routs from './routes/Routs';
 import PhotographyMain from './routes/Photography';
 import Belgium from './routes/photography/Belgium';
 import Photography from './routes/photography/Photography';
+import DigitalArt from './routes/DigitalArt';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'digital-art',
-        element: <div>test</div>,
+        element: <DigitalArt/>,
       },
       {
         path: 'photography',
