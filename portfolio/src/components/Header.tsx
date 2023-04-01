@@ -49,7 +49,7 @@ export default () => {
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
           padding="sm:p-8 p-4"
-          paddingbot="ms:pb-4 pb-2"
+          paddingbot="pb-4"
           color="focus:ring-raisin-black-600"
         />
         <Links
@@ -58,7 +58,7 @@ export default () => {
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
           padding="sm:p-8 p-4"
-          paddingbot="ms:pb-4 pb-2"
+          paddingbot="pb-4"
           color="focus:ring-raisin-black-600"
         />
         <Links
@@ -67,7 +67,7 @@ export default () => {
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
           padding="sm:p-8 p-4"
-          paddingbot="ms:pb-4 pb-2"
+          paddingbot="pb-4"
           color="focus:ring-raisin-black-600"
         />
         <Links
@@ -76,7 +76,7 @@ export default () => {
           colorText="hover:text-light-orange"
           colorbg1="peer-hover:bg-light-orange"
           padding="sm:p-8 p-4"
-          paddingbot="ms:pb-4 pb-2"
+          paddingbot="pb-4"
           color="focus:ring-raisin-black-600"
         />
       </div>

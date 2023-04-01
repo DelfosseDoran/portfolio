@@ -2,7 +2,7 @@ import Project from '../components/Project';
 
 export default () => {
   return (
-    <main className="sm:grid sm:grid-cols-12 mx-auto w-5/6">
+    <main className="md:grid grid-cols-12 mx-auto w-5/6">
       <Project
         projectName="Portfolio"
         projectText="For Frontend Development class, we had to make a portfolio. So now

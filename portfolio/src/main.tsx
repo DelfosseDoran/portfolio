@@ -9,6 +9,9 @@ import PhotographyMain from './routes/Photography';
 import Belgium from './routes/photography/Belgium';
 import Photography from './routes/photography/Photography';
 import DigitalArt from './routes/DigitalArt';
+import Oman from './routes/photography/Oman';
+import Finland from './routes/photography/Finland';
+import Canada from './routes/photography/Canada';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +37,18 @@ const router = createBrowserRouter([
           {
             path: 'belgium',
             element: <Belgium/>,
+          },
+          {
+            path: 'oman',
+            element: <Oman/>,
+          },
+          {
+            path: 'finland',
+            element: <Finland/>,
+          },
+          {
+            path: "canada",
+            element: <Canada/>,
           },
           {
             path: '',

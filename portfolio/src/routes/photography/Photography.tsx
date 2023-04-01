@@ -3,11 +3,11 @@ import Link from "../../components/Link";
 export default () => {
   return (
     <>
-      <h1 className="mx-auto mb-8 w-3/5 text-center text-3xl font-semibold">
+      <h1 className="md:mr-10 md:mb-12 p-4 text-2xl md:text-5xl font-bold text-raisin-black-700 text-center">
         I've been to many places around the world. So i capture those moments in
         beautiful photos. Here are the countries where i have been.
       </h1>
-      <div className="mx-auto gap-y-6 pb-10 md:grid md:grid-cols-2 lg:grid-cols-3 2xl:w-4/6">
+      <div className="mx-auto gap-y-6 md:grid md:grid-cols-2 lg:grid-cols-3 2xl:w-4/6">
         <Country
           country="Belgium"
           srcLink="https://raw.githubusercontent.com/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/belgium/DSC_0050.jpg"

@@ -6,14 +6,16 @@ export default () => {
     <main>
       <div className=" lg:flex justify-center ">
         <div className="lg:w-2/4">
-          <h1 className=" md:mr-10 md:mb-12 p-4 text-2xl md:text-5xl font-bold text-raisin-black-700 text-center md:text-left">
+          <h1 className=" md:mr-10 md:mb-12 p-4 text-2xl sm:text-5xl font-bold text-raisin-black-700 text-center lg:text-left">
             Hey I am Doran Delfosse and with this website you will learn more
             about me.
           </h1>
           <div className="lg:-ml-1/4 flex w-screen bg-cool-grey ">
             <div className="lg:ml-1/8 sm:flex lg:w-2/4 p-4 font-medium">
               <div>
-                <h2 className="mb-2 text-3xl font-medium">Schools:</h2>
+                <h2 className="mb-2 text-2xl sm:text-3xl font-medium">
+                  Schools:
+                </h2>
                 <div className="pl-2">
                   <h3 className="text-xl">VTI Waregem (2015 - 2021)</h3>
                   <div className="pl-2">
@@ -33,7 +35,7 @@ export default () => {
                 </div>
               </div>
               <div>
-                <h2 className="mb-2 text-3xl">Work:</h2>
+                <h2 className="mb-2 text-2xl sm:text-3xl">Work:</h2>
                 <div>
                   <p>(2019-now) </p>
                   <p>’t Houtvuur</p>
@@ -45,7 +47,7 @@ export default () => {
         </div>
         <div className="h-fit lg:w-1/4 bg-Feldgrau p-4 text-lemon-chiffon">
           <div>
-            <h1 className="mb-2 text-xl md:text-3xl font-medium">Projects</h1>
+            <h1 className="mb-2 text-2xl sm:text-3xl font-medium">Projects</h1>
             <p>
               Learn more about the pojects I made. Be sure to check out what was
               made and how it was done.
@@ -61,7 +63,7 @@ export default () => {
             </div>
           </div>
           <div>
-            <h1 className="mb-2  text-xl md:text-3xl font-medium">
+            <h1 className="mb-2 text-2xl sm:text-3xl font-medium">
               Digital Art
             </h1>
             <p>
@@ -82,7 +84,7 @@ export default () => {
             </div>
           </div>
           <div>
-            <h1 className="mb-2  text-xl md:text-3xl font-medium">
+            <h1 className="mb-2 text-2xl sm:text-3xl font-medium">
               Photography
             </h1>
             <p>
