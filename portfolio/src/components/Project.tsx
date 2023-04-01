@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default ({
@@ -42,7 +43,11 @@ export default ({
             </div>
           ) : null}
           <div className=" bg-Feldgrau p-2 text-lemon-chiffon">
-            <button className={`peer focus:pb-2 w-full text-lg font-medium text-left`}>Technologies
+            <button
+              className={`peer focus:pb-2 w-full text-lg font-medium text-left flex justify-between`}
+            >
+              <p>Technologies</p>
+              <ChevronDown/>
             </button>
             <ul className={` peer-focus:block ml-2 hidden`}>{list}</ul>
           </div>

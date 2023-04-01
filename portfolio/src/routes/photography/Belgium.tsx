@@ -1,7 +1,10 @@
 export default () => {
-    return(
-        <>
-        <p>Belgie</p>
-        </>
-    )
+    return (
+      <>
+        <p>
+          Belgium is a densely populated country so even though you see
+          buildings everywhere, there is still beautiful nature.{' '}
+        </p>
+      </>
+    );
 }
