@@ -1,5 +1,5 @@
-import { ChevronDown } from "lucide-react";
-import { Link } from "react-router-dom";
+import { ChevronDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default ({
   srcLink,
@@ -8,9 +8,9 @@ export default ({
   listTegnologys,
   reverse,
   link,
-  start
+  start,
 }: {
-    reverse?: string;
+  reverse?: string;
   srcLink: string;
   projectName: string;
   projectText: string;
@@ -23,15 +23,15 @@ export default ({
     return <li key={index}>{item}</li>;
   });
   return (
-    <div className={` col-span-11 md:flex gap-4 pb-6 ${start} ${reverse}`}>
+    <div className={` col-span-11 lg:flex gap-4 pb-6 ${start} ${reverse}`}>
       {/* flex */}
-      <div className="md:w-2/5">
+      <div className="lg:w-2/5">
         <img src={srcLink} alt={`foto of ${projectName}`} />
       </div>
-      <div className=" md:w-3/5 bg-tea-green">
-        <div className="p-2 ">
-          <h1 className="mb-4 text-xl font-medium">{projectName}</h1>
-          <p className="mb-2">{projectText}</p>
+      <div className=" lg:w-3/5 bg-tea-green flex flex-col justify-between p-2">
+        <h1 className="mb-4 text-2xl font-medium">{projectName}</h1>
+        <p className="mb-2">{projectText}</p>
+        <div>
           {link ? (
             <div className="my-3">
               <a
@@ -47,7 +47,7 @@ export default ({
               className={`peer focus:pb-2 w-full text-lg font-medium text-left flex justify-between`}
             >
               <p>Technologies</p>
-              <ChevronDown/>
+              <ChevronDown />
             </button>
             <ul className={` peer-focus:block ml-2 hidden`}>{list}</ul>
           </div>

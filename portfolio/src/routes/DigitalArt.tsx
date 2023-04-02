@@ -7,6 +7,8 @@ export default () => {
           I have been doing this for a long time and here you can see my best
           works. But this website is definitely part of it too.
         </h1>
+        <div> <image> <img src="" alt="Digital Art" />
+          </image> </div>
       </>
     );
 }
