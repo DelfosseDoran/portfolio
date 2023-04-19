@@ -13,7 +13,7 @@ module.exports = {
         "cool-grey": "#A4A8D1",
         "indian-red": "#e5989b",
         "tea-green": "#BFD7B5",
-        "naples-yelow":"#ffe45e",
+        "royal-purple":"#7E5A9B",
         "raisin-black": {
           100: '#F7F3F5',
           200: '#DECED6',
