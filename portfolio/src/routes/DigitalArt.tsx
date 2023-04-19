@@ -14,32 +14,32 @@ export default () => {
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/blauw-rood-druk.jpg"
           alt="Digital Art"
           start="col-start-1 row-start-2"
-          row="row-span-2"
+          row="row-span-3"
         />
         <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/blokken.jpg"
           alt="Digital Art"
           start="col-start-3"
-          row="row-span-2"
+          row="row-span-3"
         />
         <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/clos-up-dier.jpg"
           alt="Digital Art"
           start="col-start-4 "
-          row="row-span-2"
+          row="row-span-3"
         />
         <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/fooroskoop.jpg"
           alt="Digital Art"
           start="col-start-5 row-start-2"
-          row="row-span-2"
+          row="row-span-3"
         />
         <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/getal.jpg"
           alt="Digital Art"
           start="1"
           col="col-span-2"
-          row="row-span-2"
+          row="row-span-3"
         />
         <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/stuk-groentefruit.jpg"
@@ -56,26 +56,27 @@ export default () => {
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/klonen.jpg"
           alt="Digital Art"
           start="1"
-          row="row-span-2"
+          row="row-span-3"
           col="col-span-2"
         />
           <Art
             link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/space.jpg"
             alt="Digital Art"
             start="1"
-            row="col-span-2"
+            col="col-span-2"
+            
           />
-        <Art
-          link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/transpatuur.jpg"
-          alt="Digital Art"
-          start="1"
-          row="row-span-2"
-        />
+            <Art
+              link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/transpatuur.jpg"
+              alt="Digital Art"
+              start="1"
+              row="row-span-3"
+            />
         <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/trap.jpg"
           alt="Digital Art"
           start="1"
-          row="row-span-2"
+          row="row-span-3"
         />
       </div>
     </>
