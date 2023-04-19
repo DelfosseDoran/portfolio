@@ -4,13 +4,13 @@ import Links from '../components/Link';
 export default () => {
   return (
     <main>
-      <div className=" lg:flex justify-center ">
+      <div className=" lg:flex justify-center overflow-hidden">
         <div className="lg:w-2/4">
           <h1 className=" md:mr-10 md:mb-12 p-4 text-2xl sm:text-5xl font-bold text-raisin-black-700 text-center lg:text-left">
             Hey I am Doran Delfosse and with this website you will learn more
             about me.
           </h1>
-          <div className="lg:-ml-1/4 flex w-screen bg-cool-grey ">
+          <div className="lg:-ml-1/4 flex bg-cool-grey w-screen ">
             <div className="lg:ml-1/8 sm:flex lg:w-2/4 p-4 font-medium">
               <div>
                 <h2 className="mb-2 text-2xl sm:text-3xl font-medium">
