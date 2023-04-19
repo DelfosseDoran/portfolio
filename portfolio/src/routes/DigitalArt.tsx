@@ -31,8 +31,8 @@ export default () => {
         <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/fooroskoop.jpg"
           alt="Digital Art"
-          start="col-start-5 row-start-2"
-          row="row-span-3"
+          start="col-start-5 row-start-3"
+          row="row-span-2"
         />
         <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/getal.jpg"
