@@ -57,7 +57,7 @@ export default () => {
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/klonen.jpg"
           alt="Digital Art"
           start="1"
-          row="row-span-3"
+          row="row-span-4"
           col="col-span-2"
         />
           <Art
@@ -71,14 +71,14 @@ export default () => {
               link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/transpatuur.jpg"
               alt="Digital Art"
               start="1"
-              row="row-span-3"
+              // row="row-span-3"
             />
-        <Art
+        {/* <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/trap.jpg"
           alt="Digital Art"
           start="1"
           row="row-span-3"
-        />
+        /> */}
       </div>
     </>
   );
