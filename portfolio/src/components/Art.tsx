@@ -23,8 +23,8 @@ export default ({
     <div className={` p-4 bg-royal-purple ${divClass} `}>
       <img
         className=" h-fit w-full justify-center items-center bg-white"
-        src={link}
-        srcSet={`${linkxs} 300w, ${linksm} 400w, ${linkm} 500w, ${linklg} 700w, ${linkxl} 900w`}
+        src={`https://res.cloudinary.com/dckotgjju/image/upload/${link}`}
+        srcSet={`https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_300,c_scale/${link} 300w, https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_400,c_scale/${link} 400w, https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_500,c_scale/${link} 500w, https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_700,c_scale/${link} 700w, https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_900,c_scale/${link} 900w`}
         sizes={media}
         alt={alt}
       />
