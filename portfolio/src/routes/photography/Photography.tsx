@@ -3,7 +3,7 @@ import Link from "../../components/Link";
 export default () => {
   return (
     <>
-      <h1 className="md:mr-10 md:mb-12 p-4 text-2xl md:text-5xl font-bold text-raisin-black-700 text-center">
+      <h1 className="mx-auto mb-8 w-4/5 text-center text-2xl sm:text-3xl font-semibold">
         I've been to many places around the world. So i capture those moments in
         beautiful photos. Here are the countries where i have been.
       </h1>
