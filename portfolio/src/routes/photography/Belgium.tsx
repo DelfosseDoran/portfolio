@@ -17,7 +17,7 @@ export default () => {
         <Image
           link="Belgie/DSC_0005_2_lbmczi.jpg"
           alt="Chiken"
-          divClass="lg:row-span-1 lg:col-start-3 lg:row-start-3 row-span-3 col-start-2"
+          divClass="lg:row-span-1 lg:col-start-3 lg:row-start-3 lg:row-span-1 row-span-3 col-start-2"
           color="bg-hunyadi-yelow"
         />
         <Image
