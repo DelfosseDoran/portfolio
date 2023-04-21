@@ -15,6 +15,8 @@ module.exports = {
         "tea-green": "#BFD7B5",
         "royal-purple":"#7E5A9B",
         "hunyadi-yelow":"#EEC170",
+        "moonstone":"#5EB1BF",
+        "asparagus":"#679436",
         "raisin-black": {
           100: '#F7F3F5',
           200: '#DECED6',
