@@ -14,7 +14,7 @@ export default ({
   return (
     <div className="mx-auto mb-6 flex h-full w-80 flex-col justify-between bg-indian-red md:mb-0">
       <div>
-        <img className="" src={`https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_320,c_scale/${srcLink}`} alt={`foto in ${country}`} />
+        <img className="w-[320px]" src={`https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_320,c_scale/${srcLink}`} alt={`foto in ${country}`} />
         <div className='p-2'>
           <h1 className="text-xl font-medium">{country}</h1>
           <p>{text} </p>
