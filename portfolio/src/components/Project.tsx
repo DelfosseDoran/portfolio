@@ -1,4 +1,5 @@
 import { ChevronDown } from 'lucide-react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default ({
@@ -9,6 +10,7 @@ export default ({
   reverse,
   link,
   start,
+  alt
 }: {
   reverse?: string;
   srcLink: string;
@@ -17,7 +19,9 @@ export default ({
   listTegnologys: string[];
   link?: string;
   start: string;
+  alt: string;
 }) => {
+  const [show, setShow] = useState(false);
   let list;
   list = listTegnologys.map((item, index) => {
     return <li key={index}>{item}</li>;
@@ -26,11 +30,24 @@ export default ({
     <div className={` col-span-11 lg:flex gap-4 pb-6 ${start} ${reverse}`}>
       {/* flex */}
       <div className="lg:w-2/5">
-        <img src={srcLink} alt={`foto of ${projectName}`} />
+        <img
+          className=" h-fit w-full justify-center items-center bg-white"
+          src={`https://res.cloudinary.com/dckotgjju/image/upload/${srcLink}`}
+          srcSet={`
+        https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_300,c_scale/${srcLink} 300w, 
+        https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_350,c_scale/${srcLink} 350w, 
+        https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_450,c_scale/${srcLink} 450w, 
+        https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_550,c_scale/${srcLink} 550w, 
+        https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_600,c_scale/${srcLink} 600w, 
+        https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_750,c_scale/${srcLink} 750w, 
+        `}
+          sizes="(max-width: 400px) 350px, (max-width: 639px) 550px, (max-width: 1024px) 750px, (max-width: 1536px) 450px, 600px"
+          alt={alt}
+        />
       </div>
-      <div className=" lg:w-3/5 bg-tea-green flex flex-col justify-between p-2">
+      <div className=" lg:w-3/5 bg-tea-green flex flex-col justify-between p-2 h-fit">
         <h1 className="mb-4 text-2xl font-medium">{projectName}</h1>
-        <p className="mb-2">{projectText}</p>
+        <p className="mb-2 xl:text-xl">{projectText}</p>
         <div>
           {link ? (
             <div className="my-3">
@@ -44,12 +61,15 @@ export default ({
           ) : null}
           <div className=" bg-Feldgrau p-2 text-lemon-chiffon">
             <button
-              className={`peer focus:pb-2 w-full text-lg font-medium text-left flex justify-between`}
+              className={`focus:pb-2 w-full text-lg font-medium text-left flex justify-between`}
+              onClick={() => {
+                setShow(!show);
+              }}
             >
               <p>Technologies</p>
               <ChevronDown />
             </button>
-            <ul className={` peer-focus:block ml-2 hidden`}>{list}</ul>
+            <ul className={` ${show ? 'block' : 'hidden'} ml-2 `}>{list}</ul>
           </div>
         </div>
       </div>
