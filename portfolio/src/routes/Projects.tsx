@@ -33,7 +33,7 @@ export default () => {
           'CSS',
           'Javascript',
         ]}
-        srcLink=""
+        srcLink="projects/589shots_so_rfmyqd.jpg"
         start="col-start-1"
         alt="foto of interactive poles"
       />
