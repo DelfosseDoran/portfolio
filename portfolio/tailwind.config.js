@@ -18,6 +18,7 @@ module.exports = {
         "moonstone":"#5EB1BF",
         "asparagus":"#679436",
         "burnt-sienna": "#E26D5A",
+        "wine":"#773344",
         "raisin-black": {
           100: '#F7F3F5',
           200: '#DECED6',

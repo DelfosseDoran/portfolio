@@ -46,7 +46,7 @@ export default () => {
           divClass="row-span-3 col-span-2 lg:row-span-4"
           color="bg-burnt-sienna"
           media3={1}
-          media5={0}
+          media5={1}
         />
 <div className='hidden bg-burnt-sienna lg:flex'></div>
         <Image
@@ -55,7 +55,7 @@ export default () => {
           divClass="row-span-3 lg:col-span-2 lg:row-span-6"
           color="bg-burnt-sienna"
           media3={0}
-          media5={0}
+          media5={1}
         />
         <Image
           link="croatie/DSC_0965_sjlnfx.jpg"
@@ -71,7 +71,7 @@ export default () => {
           divClass="row-span-2 lg:row-span-1 lg:col-span-2"
           color="bg-burnt-sienna"
           media3={0}
-          media5={0}
+          media5={1}
         />
         <div className='hidden bg-burnt-sienna lg:flex'></div>
         <Image
@@ -80,15 +80,15 @@ export default () => {
           divClass="row-span-2 lg:col-span-3 lg:row-span-4"
           color="bg-burnt-sienna"
           media3={0}
-          media5={0}
+          media5={2}
         />
         <Image
           link="croatie/DSC_0971_klmfee.jpg"
           alt="illuminated bridge"
-          divClass="row-span-1 col-span-2 lg:col-span-2"
+          divClass="row-span-1 col-span-2 "
           color="bg-burnt-sienna"
           media3={1}
-          media5={0}
+          media5={1}
         />
       </div>
     </>
