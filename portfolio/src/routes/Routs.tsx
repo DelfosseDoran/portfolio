@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 export default () => {
   return (
-    <div className=''>
+    <div className=' min-h-screen'>
       <Header />
       <Outlet />
     </div>
