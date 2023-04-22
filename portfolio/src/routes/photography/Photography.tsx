@@ -42,7 +42,7 @@ export default () => {
           country="Croatia"
           srcLink="croatie/DSC_0972_solfv9.jpg"
           text="I went to the coastal city of zadar, hot but oh so beautiful. "
-          link=""
+          link="Croatia"
         />
       </div>
     </>

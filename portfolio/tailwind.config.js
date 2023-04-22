@@ -17,6 +17,7 @@ module.exports = {
         "hunyadi-yelow":"#EEC170",
         "moonstone":"#5EB1BF",
         "asparagus":"#679436",
+        "burnt-sienna": "#E26D5A",
         "raisin-black": {
           100: '#F7F3F5',
           200: '#DECED6',
