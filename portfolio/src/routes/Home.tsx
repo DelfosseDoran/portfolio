@@ -4,9 +4,9 @@ import { Github, Instagram, Mail } from 'lucide-react';
 
 export default () => {
   return (
-    <main className=" min-h-full h-full">
-      <div className=" lg:flex   justify-between flex-col h-full">
-        <div className="lg:flex justify-center overflow-hidden">
+    <main className=" h-full">
+      <div className=" lg:flex  justify-between flex-col h-full">
+        <div className="lg:flex justify-center overflow-hidden lg:pb-8">
           <div className="lg:w-2/4 ">
             <h1 className=" md:mr-10 md:mb-12 p-4 text-2xl sm:text-5xl font-bold text-raisin-black-700 text-center lg:text-left">
               Hey I am Doran Delfosse and with this website you will learn more
@@ -108,7 +108,7 @@ export default () => {
             </div>
           </div>
         </div>
-        <footer className="lg:absolute bg-cool-grey lg:bg-transparent  bottom-0 p-4 w-full">
+        <footer className=" items-end lg:bsolute bg-cool-grey lg:bg-transparent  p-4 w-full">
           <div className="flex gap-2 justify-between items-center px-8 lg:px-0 lg:w-3/4 mx-auto">
             <div className=" gap-4">
               <h1 className=" mb-2 text-2xl sm:text-3xl font-medium">
