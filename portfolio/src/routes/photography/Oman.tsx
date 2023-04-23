@@ -2,7 +2,7 @@ import Image from "../../components/Image";
 
 export default () => {return (
   <>
-    <h1 className="mx-auto mb-8 w-4/5 text-center text-2xl sm:text-3xl font-semibold">
+    <h1 className="mx-auto mb-12 lg:mb-24  w-4/5 text-center text-2xl sm:text-3xl font-semibold">
       Oman is the most ostentatious country in the arabian peninsula. I was
       there for 2 weeks and it was a wonderful trip.
     </h1>

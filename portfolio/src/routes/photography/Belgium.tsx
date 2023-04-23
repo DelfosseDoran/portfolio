@@ -3,7 +3,7 @@ import Image from '../../components/Image';
 export default () => {
   return (
     <>
-      <h1 className="mx-auto mb-8 w-4/5 text-center text-2xl sm:text-3xl font-semibold">
+      <h1 className="mx-auto mb-12 lg:mb-24  w-4/5 text-center text-2xl sm:text-3xl font-semibold">
         Belgium is a densely populated country so even though you see buildings
         everywhere, there is still beautiful nature.{' '}
       </h1>

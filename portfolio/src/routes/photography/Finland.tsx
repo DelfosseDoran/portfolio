@@ -3,8 +3,9 @@ import Image from '../../components/Image';
 export default () => {
   return (
     <>
-      <h1 className="mx-auto mb-8 w-4/5 text-center text-2xl sm:text-3xl font-semibold">
-        Finland is beautiful in winter and I was lucky enough to see this. I've seen lots of snow but also the northern light.
+      <h1 className="mx-auto mb-12 lg:mb-24  w-4/5 text-center text-2xl sm:text-3xl font-semibold">
+        Finland is beautiful in winter and I was lucky enough to see this. I've
+        seen lots of snow but also the northern light.
       </h1>
       <div className="sm:grid grid-cols-3 lg:grid-cols-5">
         <Image
@@ -48,7 +49,7 @@ export default () => {
           media3={0}
           media5={0}
         />
-        <div className='hidden lg:flex lg:row-span-3 bg-moonstone'></div>
+        <div className="hidden lg:flex lg:row-span-3 bg-moonstone"></div>
         <Image
           link="finland/DSC_1064-2_iq39r4.jpg"
           alt="ski lifts"
@@ -90,7 +91,7 @@ export default () => {
           media3={0}
           media5={2}
         />
-        <div className=' bg-moonstone h-20 lg:hidden'></div>
+        <div className=" bg-moonstone h-20 lg:hidden"></div>
       </div>
     </>
   );

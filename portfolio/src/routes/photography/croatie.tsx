@@ -3,7 +3,7 @@ import Image from '../../components/Image';
 export default () => {
   return (
     <>
-      <h1 className="mx-auto mb-8 w-4/5 text-center text-2xl sm:text-3xl font-semibold">
+      <h1 className="mx-auto mb-12 lg:mb-24 w-4/5 text-center text-2xl sm:text-3xl font-semibold">
         I went to Zadar for 1 week. It is a beautiful city to get some rest.
       </h1>
       <div className="sm:grid grid-cols-3 lg:grid-cols-5">
