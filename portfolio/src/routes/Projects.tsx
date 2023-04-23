@@ -5,8 +5,7 @@ export default () => {
     <main className="md:grid grid-cols-12 mx-auto w-5/6">
       <Project
         projectName="Portfolio"
-        projectText="For Frontend Development class, we had to make a portfolio. So now
-              you can see how I managed."
+        projectText="For Frontend Development class, we had to make a portfolio. Look how I managed."
         listTegnologys={['React', 'Typescript', 'Tailwind', 'React Router']}
         srcLink="projects/55shots_so_od46ig.png"
         start="col-start-1"
@@ -14,7 +13,7 @@ export default () => {
       />
       <Project
         projectName="Car Sharing App"
-        projectText="This is an app for people who share a car. So they can see who has driven where. You can also see how much you have to pay the owner."
+        projectText="This is an app for people who share a car. To track the routes from the divrent drivers. So you can see how much you have to pay the owner."
         listTegnologys={['React Native', 'Expo']}
         srcLink="projects/218shots_so_qzudqb.png"
         start="col-start-2"
@@ -23,9 +22,9 @@ export default () => {
       />
       <Project
         projectName="Interactive Poles"
-        projectText="This was a project for howest. For this, we had to create a game within a team for all ages. this consisted of hardware and software."
+        projectText="This was a project for Howest. My team created a game for all ages for a school. We printed poles and made them interactive with our software."
         listTegnologys={[
-          'raspberrypi',
+          'raspberry pi',
           'esp',
           'Python',
           'C++',
@@ -39,7 +38,7 @@ export default () => {
       />
       <Project
         projectName="Europe Population"
-        projectText="A website that I had to make for the Interaction Design course. I made a website where you can compare countries geographically."
+        projectText="I had to make a website for the Interaction Design course. The website compares the population of European countries."
         listTegnologys={['HTML', 'CSS', 'Javascript']}
         srcLink="projects/782shots_so_metlyd.png"
         link="https://delfossedoran.github.io/eindopdracht-Interaction/"
@@ -49,8 +48,8 @@ export default () => {
       />
       <Project
         projectName="Project One"
-        projectText="The first Project I made. It was the first project I made it was a car monitor. you could see consumption, speed and distance."
-        listTegnologys={['raspberrypi', 'Python', 'HTML', 'CSS', 'Javascript']}
+        projectText="It was the first project I made: to monitor the gasoline consumption, speed and distance of our car."
+        listTegnologys={['raspberry pi', 'Python', 'HTML', 'CSS', 'Javascript']}
         srcLink="projects/20220614_113446_hpiuhn.jpg"
         link="https://www.instructables.com/Project-One/"
         start="col-start-1"

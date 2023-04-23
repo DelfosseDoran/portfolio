@@ -4,7 +4,7 @@ export default () => {
   return (
     <>
       <h1 className="mx-auto mb-8 w-4/5 text-center text-2xl sm:text-3xl font-semibold">
-        The west coast of canada was beautiful. Almost only nature and a very
+        The west coast of canada was beautiful. Lots of nature and a very
         different culture.
       </h1>
       <div className="sm:grid grid-cols-3 lg:grid-cols-5">
