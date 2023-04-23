@@ -3,15 +3,20 @@ import Links from '../components/Link';
 import { Github, Instagram, Mail } from 'lucide-react';
 
 export default () => {
+  const date = new Date();
+  const month = date.getMonth();
   return (
     <main className=" h-full">
       <div className=" lg:flex  justify-between flex-col h-full">
         <div className="lg:flex justify-center overflow-hidden lg:pb-8">
           <div className="lg:w-2/4 ">
-            <h1 className=" md:mr-10 md:mb-12 p-4 text-2xl sm:text-5xl font-bold text-raisin-black-700 text-center lg:text-left">
-              Hey I am Doran Delfosse and with this website you will learn more
-              about me.
-            </h1>
+            <div className=" md:mr-10 md:mb-12">
+              <h1 className=" p-4 text-2xl sm:text-5xl font-bold text-raisin-black-700 text-center lg:text-left">
+                Hey I am Doran Delfosse and with this website you will learn
+                more about me.
+              </h1>
+              {month===6?<p className='pl-4'>🌈happy pride🌈</p>:null}
+            </div>
             <div className="lg:-ml-1/4 flex bg-cool-grey w-screen ">
               <div className="lg:ml-1/8 sm:flex lg:w-2/4 p-4 font-medium">
                 <div>
