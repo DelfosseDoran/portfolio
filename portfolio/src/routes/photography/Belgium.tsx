@@ -13,16 +13,12 @@ export default () => {
           alt="Chiken"
           divClass="lg:col-span-2 row-span-3 lg:col-start-1 lg:row-start-1 row-start-2"
           color="bg-asparagus"
-          media3={0}
-          media5={1}
         />
         <Image
           link="Belgie/DSC_0005_2_lbmczi.jpg"
           alt="sunset"
           divClass="lg:row-span-1 lg:col-start-3 lg:row-start-3 lg:row-span-1 row-span-3 col-start-2"
           color="bg-asparagus"
-          media3={0}
-          media5={0}
         />
         <Image
           link="Belgie/DSC_0765_blalyp.jpg"

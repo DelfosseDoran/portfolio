@@ -26,8 +26,8 @@ export default ({
   alt: string;
   divClass?: string;
   color?: string;
-  media3: number;
-  media5: number;
+  media3?: number;
+  media5?: number;
 }) => {
   const cld = new Cloudinary({
     cloud: {
@@ -39,7 +39,7 @@ export default ({
   myImage.delivery(Delivery.quality('auto'));
   return (
     <div className={` p-4 ${color} ${divClass} `}>
-      <div className="bg-white first:w-full ">
+      <div className="bg-white">
         <AdvancedImage
         className="w-full"
           cldImg={myImage}
