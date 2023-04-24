@@ -15,7 +15,7 @@ export default () => {
                 Hey, I am Doran Delfosse and this website you will learn
                 more about me.
               </h1>
-              {month===6?<p className='pl-4'>🌈happy pride🌈</p>:null}
+              {month===5?<p className='pl-4'>🌈happy pride🌈</p>:null}
             </div>
             <div className="lg:-ml-1/4 flex bg-cool-grey w-screen ">
               <div className="lg:ml-1/8 sm:flex lg:w-2/4 p-4 font-medium">
