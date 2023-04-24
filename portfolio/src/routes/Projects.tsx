@@ -14,7 +14,7 @@ export default () => {
       <Project
         projectName="Car Sharing App"
         projectText="This is an app for people who share a car. To track the routes from the divrent drivers. So you can see how much you have to pay the owner."
-        listTegnologys={['React Native', 'Expo', 'Dotnet']}
+        listTegnologys={['React Native', 'Expo', 'Dotnet',"azure","C#"]}
         srcLink="projects/218shots_so_qzudqb.png"
         start="col-start-2"
         reverse="flex-row-reverse"
