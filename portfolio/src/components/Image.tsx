@@ -8,6 +8,11 @@ import {
   responsive,
   placeholder,
 } from '@cloudinary/react';
+import { fill } from '@cloudinary/url-gen/actions/resize';
+import { full } from '@cloudinary/url-gen/qualifiers/fontHinting';
+import { Delivery } from '@cloudinary/url-gen/actions';
+import { auto } from '@cloudinary/url-gen/qualifiers/quality';
+import { Reshape } from '@cloudinary/url-gen/actions/reshape';
 
 export default ({
   link,
@@ -31,14 +36,21 @@ export default ({
   });
   const myImage = cld.image(link);
   myImage.format('webp');
+  myImage.delivery(Delivery.quality('auto'));
+  myImage.resize(fill().width(1200).height(800));
   return (
     <div className={` p-4 ${color} ${divClass} `}>
-      <div className='bg-white'>
+      <div className="bg-white first:w-full ">
         <AdvancedImage
+        className="w-full"
           cldImg={myImage}
           plugins={[
             responsive({
-              steps: [275, 300, 350, 400, 600, 650, 800, 900, 1200],
+              steps: [275, 300, 350, 400, 500, 600, 650, 800, 900, 1200],
+            }),
+            lazyload(),
+            placeholder({
+              mode: 'blur',
             }),
           ]}
         />
