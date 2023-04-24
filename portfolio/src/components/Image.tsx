@@ -37,7 +37,6 @@ export default ({
   const myImage = cld.image(link);
   myImage.format('webp');
   myImage.delivery(Delivery.quality('auto'));
-  myImage.resize(fill().width(1200).height(800));
   return (
     <div className={` p-4 ${color} ${divClass} `}>
       <div className="bg-white first:w-full ">
@@ -47,10 +46,6 @@ export default ({
           plugins={[
             responsive({
               steps: [275, 300, 350, 400, 500, 600, 650, 800, 900, 1200],
-            }),
-            lazyload(),
-            placeholder({
-              mode: 'blur',
             }),
           ]}
         />
