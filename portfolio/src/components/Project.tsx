@@ -1,3 +1,5 @@
+import { AdvancedImage, responsive } from '@cloudinary/react';
+import { Cloudinary } from '@cloudinary/url-gen';
 import { ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -21,6 +23,14 @@ export default ({
   start: string;
   alt: string;
 }) => {
+  
+  const cld = new Cloudinary({
+    cloud: {
+      cloudName: 'dckotgjju',
+    },
+  });
+  const myImage = cld.image(srcLink);
+  myImage.format('webp');
   const [show, setShow] = useState(false);
   let list;
   list = listTegnologys.map((item, index) => {
@@ -30,7 +40,15 @@ export default ({
     <div className={` col-span-11 lg:flex gap-4 pb-6 ${start} ${reverse}`}>
       {/* flex */}
       <div className="lg:w-2/5">
-        <img
+        <AdvancedImage
+          cldImg={myImage}
+          plugins={[
+            responsive({
+              steps: [300, 350, 450, 550, 600, 750, 900, 1200],
+            }),
+          ]}
+        />
+        {/* <img
           className=" h-fit w-full justify-center items-center bg-white"
           src={`https://res.cloudinary.com/dckotgjju/image/upload/${srcLink}`}
           srcSet={`
@@ -43,7 +61,7 @@ export default ({
         `}
           sizes="(max-width: 400px) 350px, (max-width: 639px) 550px, (max-width: 1024px) 750px, (max-width: 1536px) 450px, 600px"
           alt={alt}
-        />
+        /> */}
       </div>
       <div className=" lg:w-3/5 bg-tea-green flex flex-col justify-between p-2 h-fit">
         <h1 className="mb-4 text-2xl font-medium">{projectName}</h1>
