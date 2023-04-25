@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './routes/Home';
 import './assets/tailwind.css';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
 import Projects from './routes/Projects';
 import Routs from './routes/Routs';
 import PhotographyMain from './routes/Photography';
@@ -15,6 +15,10 @@ import Canada from './routes/photography/Canada';
 import Croatie from './routes/photography/croatie';
 
 const router = createBrowserRouter([
+  {
+    path:'*',
+    element:<Navigate to="/" replace/>
+  },
   {
     path: '',
     element: <Routs />,
@@ -29,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'digital-art',
-        element: <DigitalArt/>,
+        element: <DigitalArt />,
       },
       {
         path: 'photography',
@@ -37,29 +41,30 @@ const router = createBrowserRouter([
         children: [
           {
             path: 'belgium',
-            element: <Belgium/>,
+            element: <Belgium />,
           },
           {
             path: 'oman',
-            element: <Oman/>,
+            element: <Oman />,
           },
           {
             path: 'finland',
-            element: <Finland/>,
+            element: <Finland />,
           },
           {
-            path: "canada",
-            element: <Canada/>,
+            path: 'canada',
+            element: <Canada />,
           },
           {
             path: 'Croatia',
-            element: <Croatie/>,
+            element: <Croatie />,
           },
           {
             path: '',
-            element: <Photography/>,
-          },],
-      }
+            element: <Photography />,
+          },
+        ],
+      },
     ],
   },
 ]);
@@ -67,7 +72,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <div className="min-h-screen bg-lemon-chiffon font-sans">
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </div>
   </React.StrictMode>
 );
