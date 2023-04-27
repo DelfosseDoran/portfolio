@@ -41,6 +41,7 @@ export default ({
       {/* flex */}
       <div className="lg:w-2/5">
         <AdvancedImage
+          alt={alt}
           cldImg={myImage}
           plugins={[
             responsive({

@@ -41,6 +41,7 @@ export default ({
     <div className={` p-4 ${color} ${divClass} `}>
       <div className="bg-white">
         <AdvancedImage
+        alt={alt}
         className="w-full"
           cldImg={myImage}
           plugins={[
