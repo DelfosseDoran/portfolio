@@ -6,7 +6,7 @@ export default () => {
     <div className=" min-h-screen">
       <Header />
       <Outlet />
-      <div className="flex justify-center opacity-50">
+      <div className="flex justify-center opacity-75">
         <div>
           <p>By Doran Delfosse</p>
           <p className="text-center">© 2023</p>
