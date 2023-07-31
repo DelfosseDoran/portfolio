@@ -90,5 +90,6 @@ export default () => {return (
       />
       <div className="bg-hunyadi-yelow col-span-2 lg:hidden"></div>
     </div>
+    <div className="absolute bg-hunyadi-yelow w-full h-12"></div>
   </>
 );}

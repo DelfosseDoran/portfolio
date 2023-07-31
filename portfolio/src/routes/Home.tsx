@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Links from '../components/Link';
-import { Github, Instagram, Mail } from 'lucide-react';
+import { Github, Instagram, Mail, Linkedin } from 'lucide-react';
 
 export default () => {
   const date = new Date();
@@ -12,10 +12,10 @@ export default () => {
           <div className="lg:w-2/4 ">
             <div className=" md:mr-10 md:mb-12">
               <h1 className=" p-4 text-2xl sm:text-5xl font-bold text-raisin-black-700 text-center lg:text-left">
-                Hey, I am Doran Delfosse and this website you will learn
-                more about me.
+                Hey, I am Doran Delfosse and this website you will learn more
+                about me.
               </h1>
-              {month===5?<p className='pl-4'>🌈happy pride🌈</p>:null}
+              {month === 5 ? <p className="pl-4">🌈happy pride🌈</p> : null}
             </div>
             <div className="lg:-ml-1/4 flex bg-cool-grey w-screen ">
               <div className="lg:ml-1/8 sm:flex lg:w-2/4 p-4 font-medium">
@@ -113,8 +113,8 @@ export default () => {
             </div>
           </div>
         </div>
-        <footer className=" items-end lg:bsolute bg-cool-grey lg:bg-transparent  p-4 w-full">
-          <div className="flex gap-2 justify-between items-center px-8 lg:px-0 lg:w-3/4 mx-auto">
+        <footer className="   bg-cool-grey lg:bg-transparent  w-full items-center  lg:px-0 lg:w-3/4 mx-auto">
+          <div className="flex gap-2 justify-between p-4 ">
             <div className=" gap-4">
               <h1 className=" mb-2 text-2xl sm:text-3xl font-medium">
                 Contact me
@@ -140,8 +140,15 @@ export default () => {
               >
                 <Github className="stroke-raisin-black-600 lg:stroke-raisin-black-500 focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12" />
               </a>
+              <a
+                href="https://be.linkedin.com/in/doran-delfosse-684290283"
+                className="p-2 lg:bg-raisin-black-200 w-fit h-fit lg:focus:bg-raisin-black-400 lg:hover:bg-raisin-black-400"
+              >
+                <Linkedin className="stroke-raisin-black-600 lg:stroke-raisin-black-500 focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12" />
+              </a>
             </div>
           </div>
+          <div className="bg-cool-grey lg:bg-transparent w-full h-12"></div>
         </footer>
       </div>
     </main>

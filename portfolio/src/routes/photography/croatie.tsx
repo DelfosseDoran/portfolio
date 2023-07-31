@@ -47,7 +47,7 @@ export default () => {
           media3={1}
           media5={1}
         />
-<div className='hidden bg-burnt-sienna lg:flex'></div>
+        <div className="hidden bg-burnt-sienna lg:flex"></div>
         <Image
           link="croatie/DSC_0101_nbf9to.jpg"
           alt="3 wells in a line"
@@ -72,7 +72,7 @@ export default () => {
           media3={0}
           media5={1}
         />
-        <div className='hidden bg-burnt-sienna lg:flex'></div>
+        <div className="hidden bg-burnt-sienna lg:flex"></div>
         <Image
           link="croatie/DSC_0061_hfw1de.jpg"
           alt="the market at the centreum"
@@ -90,6 +90,7 @@ export default () => {
           media5={1}
         />
       </div>
+      <div className="absolute bg-burnt-sienna w-full h-12"></div>
     </>
   );
 };

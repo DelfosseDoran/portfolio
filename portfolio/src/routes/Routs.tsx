@@ -3,9 +3,15 @@ import Header from '../components/Header';
 
 export default () => {
   return (
-    <div className=' min-h-screen'>
+    <div className=" min-h-screen">
       <Header />
       <Outlet />
+      <div className="flex justify-center opacity-50">
+        <div>
+          <p>By Doran Delfosse</p>
+          <p className="text-center">© 2023</p>
+        </div>
+      </div>
     </div>
   );
 };

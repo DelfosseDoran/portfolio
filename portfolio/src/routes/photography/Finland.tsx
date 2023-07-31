@@ -93,6 +93,7 @@ export default () => {
         />
         <div className=" bg-moonstone h-20 lg:hidden"></div>
       </div>
+      <div className="absolute bg-moonstone w-full h-12"></div>
     </>
   );
 };

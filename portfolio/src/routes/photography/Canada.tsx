@@ -89,6 +89,7 @@ export default () => {
           media5={0}
         />
       </div>
+      <div className="absolute bg-wine w-full h-12"></div>
     </>
   );
 };

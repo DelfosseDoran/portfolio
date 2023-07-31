@@ -71,7 +71,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <div className="min-h-screen bg-lemon-chiffon font-sans">
+    <div className="min-h-screen bg-lemon-chiffon font-sans ">
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>
