@@ -4,6 +4,25 @@ export default () => {
   return (
     <main className="md:grid grid-cols-12 mx-auto w-5/6">
       <Project
+        projectName="industry Project"
+        projectText="The second project for school and we had a beautiful project. we had the fun of making a project for Axxes. We made a conference tool whit a website and app. I was responsible for the backend and a part of the website and app."
+        listTegnologys={[
+          'React',
+          'Typescript',
+          'Tailwind',
+          'React Router',
+          'React Native',
+          'Expo',
+          'Dotnet',
+          'C#',
+          'Azure',
+        ]}
+        srcLink="projects/314shots_so_gio0nk.png"
+        start="col-start-2"
+        reverse="flex-row-reverse"
+        alt="foto of portfolio"
+      />
+      <Project
         projectName="Portfolio"
         projectText="For Frontend Development class, we had to make a portfolio. Look how I managed."
         listTegnologys={['React', 'Typescript', 'Tailwind', 'React Router']}
@@ -14,7 +33,7 @@ export default () => {
       <Project
         projectName="Car Sharing App"
         projectText="This is an app for people who share a car. To track the routes from the divrent drivers. So you can see how much you have to pay the owner."
-        listTegnologys={['React Native', 'Expo', 'Dotnet',"azure","C#"]}
+        listTegnologys={['React Native', 'Expo', 'Dotnet', 'azure', 'C#']}
         srcLink="projects/218shots_so_qzudqb.png"
         start="col-start-2"
         reverse="flex-row-reverse"
