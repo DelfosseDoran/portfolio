@@ -123,7 +123,7 @@ export default () => {
             </div>
             <div className="sm:flex justify-end gap-4 items-center sm:flex-row grid grid-cols-2">
               <a
-                href="mailto:doran.delfosse@gmaik.com"
+                href="mailto:doran.delfosse@gmail.com"
                 className="p-2 lg:bg-raisin-black-200 w-fit h-fit lg:focus:bg-raisin-black-400 lg:hover:bg-raisin-black-400"
               >
                 <Mail className=" stroke-raisin-black-600 lg:stroke-raisin-black-500 focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12" />
