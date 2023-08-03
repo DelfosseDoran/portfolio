@@ -17,7 +17,7 @@ export default ({
         <img className="w-[320px]" src={`https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_320,c_scale/${srcLink}`} alt={`foto in ${country}`} />
         <div className='p-2'>
           <h1 className="text-xl font-medium">{country}</h1>
-          <p>{text} </p>
+          <p className='font-Signika text-lg'>{text} </p>
         </div>
       </div>
       <div className="flex justify-end p-2">

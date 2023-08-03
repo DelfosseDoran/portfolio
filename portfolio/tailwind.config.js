@@ -32,7 +32,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Sono']
+        sans: ['Sono'],
+        Signika: ['Signika Negative']
       },
       margin: {
         '1/4': '25%',

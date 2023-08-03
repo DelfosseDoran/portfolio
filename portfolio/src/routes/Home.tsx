@@ -25,14 +25,14 @@ export default () => {
                   </h2>
                   <div className="pl-2">
                     <h3 className="text-xl">VTI Waregem (2015 - 2021)</h3>
-                    <div className="pl-2">
+                    <div className="pl-2 font-Signika text-lg">
                       <p>2015 - 2016 Technology</p>
                       <p>2016 - 2017 Mechanics Electricity</p>
                       <p>2017 - 2019 Electricity Electronics</p>
                       <p>2019 - 2021 Industrial Informatics</p>
                     </div>
                     <h3 className="text-xl">Howest (2021 - now)</h3>
-                    <div className="pl-2">
+                    <div className="pl-2 font-Signika text-lg">
                       <p>2021 - 2022 Multimedia en Creative Technology</p>
                       <p>
                         2022 - now Multimedia en Creative Technology (Next Web
@@ -43,10 +43,10 @@ export default () => {
                 </div>
                 <div>
                   <h2 className="mb-2 text-2xl sm:text-3xl">Work:</h2>
-                  <div>
+                  <div className=" text-lg">
                     <p>(2019-now) </p>
-                    <p>’t Houtvuur</p>
-                    <p>waiter (working student)</p>
+                    <p className="font-Signika">’t Houtvuur</p>
+                    <p className="font-Signika">waiter (working student)</p>
                   </div>
                 </div>
               </div>
@@ -57,7 +57,7 @@ export default () => {
               <h1 className="mb-2 text-2xl sm:text-3xl font-medium">
                 Projects
               </h1>
-              <p>
+              <p className="font-Signika text-xl">
                 Learn more about the projects I made. Be sure to check out what
                 was made and how it was done.
               </p>
@@ -75,7 +75,7 @@ export default () => {
               <h1 className="mb-2 text-2xl sm:text-3xl font-medium">
                 Digital Art
               </h1>
-              <p>
+              <p className="font-Signika text-xl">
                 Check out the works that I have already made. Everything is made
                 with photoshop or illustrator.
               </p>
@@ -96,8 +96,7 @@ export default () => {
               <h1 className="mb-2 text-2xl sm:text-3xl font-medium">
                 Photography
               </h1>
-              <p>
-                {' '}
+              <p className="font-Signika text-xl">
                 I love travelling, I love nature and I love photography so I
                 started combining them. Now take a look at where I went.
               </p>
@@ -119,7 +118,7 @@ export default () => {
               <h1 className=" mb-2 text-2xl sm:text-3xl font-medium">
                 Contact me
               </h1>
-              <p className="">Get in touch.</p>
+              <p className="font-Signika font-light">Get in touch.</p>
             </div>
             <div className="sm:flex justify-end gap-4 items-center sm:flex-row grid grid-cols-2">
               <a

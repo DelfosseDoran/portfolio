@@ -52,7 +52,7 @@ export default ({
       </div>
       <div className=" lg:w-3/5 bg-tea-green flex flex-col justify-between p-2 h-fit">
         <h1 className="mb-4 text-2xl font-medium">{projectName}</h1>
-        <p className="mb-2 xl:text-xl">{projectText}</p>
+        <p className="mb-2 xl:text-xl font-Signika">{projectText}</p>
         <div>
           {link ? (
             <div className="my-3">
@@ -66,13 +66,15 @@ export default ({
           ) : null}
           <div className=" bg-Feldgrau p-2 text-lemon-chiffon">
             <button
-              className={`${show?"pb-2":null} w-full text-lg font-medium text-left flex justify-between`}
+              className={`${
+                show ? 'pb-2' : null
+              } w-full text-lg font-medium text-left flex justify-between`}
               onClick={() => {
                 setShow(!show);
               }}
             >
               <p>Technologies</p>
-              {show?<ChevronUp />:<ChevronDown />}
+              {show ? <ChevronUp /> : <ChevronDown />}
             </button>
             <ul className={` ${show ? 'block' : 'hidden'} ml-2 `}>{list}</ul>
           </div>
