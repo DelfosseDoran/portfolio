@@ -37,7 +37,8 @@ module.exports = {
       margin: {
         '1/4': '25%',
         '1/8': '12.5%',
-      }
+      },
+      
     },
   },
   plugins: [],

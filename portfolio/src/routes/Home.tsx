@@ -6,7 +6,7 @@ export default () => {
   const date = new Date();
   const month = date.getMonth();
   return (
-    <main className=" h-full">
+    <main className="h-full">
       <div className=" lg:flex  justify-between flex-col h-full">
         <div className="lg:flex justify-center overflow-hidden lg:pb-8">
           <div className="lg:w-2/4 ">
@@ -148,7 +148,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="bg-cool-grey lg:bg-transparent w-full h-12"></div>
+          <div className="absolute lg:hidden bg-cool-grey lg:bg-transparent w-full h-12"></div>
         </footer>
       </div>
     </main>

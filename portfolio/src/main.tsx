@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Home from './routes/Home';
 import './assets/tailwind.css';
-import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
+import {
+  createBrowserRouter,
+  Navigate,
+  RouterProvider,
+} from 'react-router-dom';
 import Projects from './routes/Projects';
 import Routs from './routes/Routs';
 import PhotographyMain from './routes/Photography';
@@ -16,8 +20,8 @@ import Croatie from './routes/photography/croatie';
 
 const router = createBrowserRouter([
   {
-    path:'*',
-    element:<Navigate to="/" replace/>
+    path: '*',
+    element: <Navigate to="/" replace />,
   },
   {
     path: '',
@@ -71,8 +75,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <div className="min-h-screen bg-lemon-chiffon font-sans ">
-      <RouterProvider router={router} />
+    <div className="min-h-screen bg-lemon-chiffon font-sans over">
+        <RouterProvider router={router} />
     </div>
   </React.StrictMode>
 );
