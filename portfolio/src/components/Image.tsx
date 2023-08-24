@@ -19,15 +19,11 @@ export default ({
   alt,
   divClass,
   color = 'bg-royal-purple',
-  media3,
-  media5,
 }: {
   link: string;
   alt: string;
   divClass?: string;
   color?: string;
-  media3?: number;
-  media5?: number;
 }) => {
   const cld = new Cloudinary({
     cloud: {

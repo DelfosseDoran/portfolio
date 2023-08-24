@@ -25,56 +25,42 @@ export default () => {
           alt="meadow with row of trees"
           divClass="row-span-3 lg:row-start-2 lg:col-span-2 lg:col-start-4 row-start-3 col-start-3"
           color="bg-asparagus"
-          media3={0}
-          media5={1}
         />
         <Image
           link="Belgie/DSC_0741_qabqen.jpg"
           alt="dog for flowers"
           divClass="lg:row-span-2 lg:row-start-4 col-span-2 row-span-3 lg:col-span-1"
           color="bg-asparagus"
-          media3={1}
-          media5={0}
         />
         <Image
           link="Belgie/DSC_0012_w5mvt8.jpg"
           alt="birdhouse in the bushes"
           divClass="lg:row-span-3 lg:col-span-2 "
           color="bg-asparagus"
-          media3={0}
-          media5={1}
         />
         <Image
           link="Belgie/DSC_0008_dlo9si.jpg"
           alt="Flowers"
           divClass="lg:row-span-6 lg:col-span-2 row-span-3 "
           color="bg-asparagus"
-          media3={0}
-          media5={1}
         />
         <Image
           link="Belgie/DSC_0053_otjhcm.jpg"
           alt="Green house in a meadow"
           divClass="lg:row-span-1 "
           color="bg-asparagus"
-          media3={0}
-          media5={0}
         />
         <Image
           link="Belgie/DSC_0147_f7t97w.jpg"
           alt="Pear tree in bloom"
           divClass="lg:row-span-6 lg:col-span-3"
           color="bg-asparagus"
-          media3={0}
-          media5={2}
         />
         <Image
           link="Belgie/DSC_0006_heuzfm.jpg"
           alt="The tips of the trees"
           divClass="row-span-2 lg:col-span-1 col-span-2"
           color="bg-asparagus"
-          media3={1}
-          media5={0}
         />
 
         <Image
@@ -82,8 +68,6 @@ export default () => {
           alt="Moon"
           divClass="lg:row-span-2 "
           color="bg-asparagus"
-          media3={0}
-          media5={0}
         />
       </div>
       <div className="absolute bg-asparagus w-full h-12"></div>

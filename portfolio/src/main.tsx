@@ -17,6 +17,7 @@ import Oman from './routes/photography/Oman';
 import Finland from './routes/photography/Finland';
 import Canada from './routes/photography/Canada';
 import Croatie from './routes/photography/croatie';
+import Italy from './routes/photography/Italy';
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
           {
             path: 'Croatia',
             element: <Croatie />,
+          },
+          {
+            path: 'Italy',
+            element: <Italy />,
           },
           {
             path: '',

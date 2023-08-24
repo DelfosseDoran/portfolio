@@ -10,8 +10,9 @@ export default () => {
       <div className="mx-auto gap-y-6 md:grid md:grid-cols-2 lg:grid-cols-3 2xl:w-4/6 pb-6 justify-center items-center">
         <Country
           country="Belgium"
+          region="West/East Flanders"
           srcLink="Belgie/DSC_0050_ep8q82.jpg"
-          text="The land of chocolate and waffles but also nature."
+          text="The land of chocolate and waffles but also nature if you find it."
           link="belgium"
         />
         <Country
@@ -22,8 +23,9 @@ export default () => {
         />
         <Country
           country="Finland"
+          region="Lapland"
           srcLink="finland/DSC_1271_fmfi9m.jpg"
-          text="I went to Finland in winter. I saw the polar light."
+          text="I went to Finland in winter. It was cold but the nature was beautiful."
           link="finland"
         />
         <div className="justify-center items-center">
@@ -34,15 +36,31 @@ export default () => {
         </div>
         <Country
           country="Canada"
+          region="East coast"
           srcLink="canada/0.1DSC_0243_ifn31a.jpg"
           text="I went to the east coast of canada and saw another full-on different nature."
           link="canada"
         />
         <Country
           country="Croatia"
+          region="Zadar"
           srcLink="croatie/DSC_0972_solfv9.jpg"
           text="I went to the coastal city of Zadar, hot but oh so beautiful. "
           link="Croatia"
+        />
+        {/* <Country
+          country="Belgium"
+          region="Ardenne"
+          srcLink="croatie/DSC_0972_solfv9.jpg"
+          text="Went to the Ardenne. The best nature is there."
+          link="Ardenne"
+        /> */}
+        <Country
+          country="Italy"
+          region="Toscane/North-Italy"
+          srcLink="italy/DSC_0526_oamqqo.jpg"
+          text="The land of pizza and pasta. but also the land of nature and culture."
+          link="Italy"
         />
       </div>
     </>

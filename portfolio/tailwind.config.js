@@ -19,6 +19,7 @@ module.exports = {
         "asparagus":"#679436",
         "burnt-sienna": "#E26D5A",
         "wine":"#773344",
+        "coral":"#EF7674",
         "raisin-black": {
           100: '#F7F3F5',
           200: '#DECED6',
