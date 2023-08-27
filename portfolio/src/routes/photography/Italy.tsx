@@ -4,8 +4,7 @@ export default () => {
   return (
     <>
       <h1 className="mx-auto mb-12 lg:mb-24  w-4/5 text-center text-2xl sm:text-3xl font-semibold">
-        Finland is beautiful in winter and I was lucky enough to see this. I've
-        seen lots of snow but also the northern light.
+        Italy the Country of art and history. The country of the renaissance. The country of the best food in the world. Whit other words the best country in the word.
       </h1>
       <div className="sm:grid grid-cols-3 lg:grid-cols-5">
         <Image
