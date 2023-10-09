@@ -14,10 +14,10 @@ export default ({
   region?: string;
 }) => {
   return (
-    <div className="mx-auto mb-6 flex h-full w-80 flex-col justify-between bg-indian-red md:mb-0">
+    <div className="mx-auto mb-6 flex h-full w-80 flex-col justify-between bg-indian-red md:mb-0 rounded-lg">
       <div>
         <img
-          className="w-[320px]"
+          className="w-[320px] rounded-lg shadow-lg"
           src={`https://res.cloudinary.com/dckotgjju/image/upload/f_auto,w_320,c_scale/${srcLink}`}
           alt={`foto in ${country}`}
         />

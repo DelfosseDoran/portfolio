@@ -35,10 +35,10 @@ export default ({
   myImage.delivery(Delivery.quality('auto'));
   return (
     <div className={` p-4 ${color} ${divClass} `}>
-      <div className="bg-white">
+      <div className="">
         <AdvancedImage
         alt={alt}
-        className="w-full"
+        className="w-full bg-white"
           cldImg={myImage}
           plugins={[
             responsive({

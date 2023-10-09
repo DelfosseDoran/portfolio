@@ -41,6 +41,7 @@ export default ({
       {/* flex */}
       <div className="lg:w-2/5">
         <AdvancedImage
+          className="xl:rounded-lg rounded-t-lg shadow-lg"
           alt={alt}
           cldImg={myImage}
           plugins={[
@@ -50,21 +51,21 @@ export default ({
           ]}
         />
       </div>
-      <div className=" lg:w-3/5 bg-tea-green flex flex-col justify-between p-2 h-fit">
+      <div className=" lg:w-3/5 bg-tea-green flex flex-col justify-between p-2 h-fit xl:rounded-lg rounded-b-lg  shadow-lg">
         <h1 className="mb-4 text-2xl font-medium">{projectName}</h1>
         <p className="mb-2 xl:text-xl font-Signika">{projectText}</p>
         <div>
           {link ? (
             <div className="my-3">
               <a
-                className="my-2 bg-Feldgrau p-2 text-lemon-chiffon"
+                className="my-2 bg-Feldgrau p-2 text-lemon-chiffon rounded-md"
                 href={link}
               >
                 the website
               </a>
             </div>
           ) : null}
-          <div className=" bg-Feldgrau p-2 text-lemon-chiffon">
+          <div className=" bg-Feldgrau p-2 text-lemon-chiffon rounded-md">
             <button
               className={`${
                 show ? 'pb-2' : null
