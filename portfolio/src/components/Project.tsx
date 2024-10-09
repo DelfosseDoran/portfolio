@@ -51,7 +51,7 @@ export default ({
           ]}
         />
       </div>
-      <div className=" lg:w-3/5 bg-tea-green dark:bg-gradient-to-br dark:from-[#eeddf2] dark:via-[#eeddf2] dark:to-[#db84b2] dark:text-rich-black flex flex-col justify-between p-2 h-fit xl:rounded-lg rounded-b-lg  shadow-lg">
+      <div className=" lg:w-3/5 bg-tea-green dark:bg-gradient-to-br dark:from-pale-purple dark:via-pale-purple dark:to-persian-pink dark:text-rich-black flex flex-col justify-between p-2 h-fit xl:rounded-lg rounded-b-lg  shadow-lg">
         <h1 className="mb-4 text-2xl font-medium">{projectName}</h1>
         <p className="mb-2 xl:text-xl font-Signika">{projectText}</p>
         <div>
@@ -65,7 +65,7 @@ export default ({
               </a>
             </div>
           ) : null}
-          <div className=" bg-Feldgrau dark:bg-gradient-to-br dark:from-[#db84b2] dark:via-[#6632b3] dark:to-[#6632b3] p-2 text-lemon-chiffon rounded-md">
+          <div className=" bg-Feldgrau dark:bg-gradient-to-br dark:from-persian-pink dark:via-grape dark:to-grape p-2 text-lemon-chiffon rounded-md">
             <button
               className={`${
                 show ? 'pb-2' : null

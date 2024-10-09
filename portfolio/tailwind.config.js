@@ -39,8 +39,10 @@ module.exports = {
         "non-photo-blue":"#80ced7",
         "brunswick-green": "#27543F",
         "royal-blue": "#04265e",
-        "white": "#fff"
-
+        "white": "#fff",
+        "grape":"#6632b3",
+        "persian-pink":"#db84b2",
+        "pale-purple":"#eeddf2"
       },
       fontFamily: {
         sans: ['Sono'],
