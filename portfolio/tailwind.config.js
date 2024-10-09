@@ -13,13 +13,7 @@ module.exports = {
         "cool-grey": "#A4A8D1",
         "indian-red": "#e5989b",
         "tea-green": "#BFD7B5",
-        "royal-purple":"#7E5A9B",
-        "hunyadi-yelow":"#EEC170",
-        "moonstone":"#5EB1BF",
-        "asparagus":"#679436",
-        "burnt-sienna": "#E26D5A",
-        "wine":"#773344",
-        "coral":"#EF7674",
+        "royal-purple": "#7E5A9B",
         "raisin-black": {
           100: '#F7F3F5',
           200: '#DECED6',
@@ -31,6 +25,22 @@ module.exports = {
           800: '#25181F',
           900: '#0C080A',
         },
+        "countries": {
+          "oman": "#EEC170",
+          "finland": "#5EB1BF",
+          "belgium": "#679436",
+          "canada": "#773344",
+          "croatia": "#E26D5A",
+          "italy": "#EF7674",
+        },
+        //dark mode
+        "rich-black": "#040D12",
+        "platinum":"#CCDBDC",
+        "non-photo-blue":"#80ced7",
+        "brunswick-green": "#27543F",
+        "crayola": "#04265e",
+        "white": "#fff"
+
       },
       fontFamily: {
         sans: ['Sono'],
@@ -40,7 +50,7 @@ module.exports = {
         '1/4': '25%',
         '1/8': '12.5%',
       },
-      
+
     },
   },
   plugins: [],

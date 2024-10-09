@@ -45,7 +45,7 @@ export default () => {
       <footer className="flex justify-center opacity-75">
         <div>
           <p>By Doran Delfosse</p>
-          <p className="text-center">© 2023</p>
+          <p className="text-center">© {(new Date().getFullYear())}</p>
         </div>
       </footer>
     </div>
