@@ -38,7 +38,7 @@ module.exports = {
         "platinum":"#CCDBDC",
         "non-photo-blue":"#80ced7",
         "brunswick-green": "#27543F",
-        "crayola": "#04265e",
+        "royal-blue": "#04265e",
         "white": "#fff"
 
       },

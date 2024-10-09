@@ -16,7 +16,7 @@ export default () => {
               </h1>
               {month === 5 ? <p className="pl-4">🌈happy pride🌈</p> : null}
             </div>
-            <div className="lg:-ml-1/4 flex bg-cool-grey w-screen dark:bg-crayola">
+            <div className="lg:-ml-1/4 flex bg-cool-grey w-screen dark:bg-royal-blue">
               <div className="lg:ml-1/8 sm:flex lg:w-2/4 p-4 font-medium">
                 <div>
                   <h2 className="mb-2 text-2xl sm:text-3xl font-medium">Schools:</h2>
@@ -102,7 +102,7 @@ export default () => {
             </div>
           </div>
         </div>
-        <footer className="dark:bg-crayola bg-cool-grey lg:bg-transparent  w-full items-center  lg:px-0 lg:w-3/4 mx-auto">
+        <footer className="dark:bg-royal-blue bg-cool-grey lg:bg-transparent  w-full items-center  lg:px-0 lg:w-3/4 mx-auto">
           <div className="flex gap-2 justify-between p-4 ">
             <div className=" gap-4">
               <h1 className=" mb-2 text-2xl sm:text-3xl font-medium">Contact me</h1>
@@ -135,7 +135,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="absolute lg:hidden bg-cool-grey lg:bg-transparent w-full h-12"></div>
+          <div className="absolute lg:hidden bg-royal-blue lg:bg-transparent w-full h-12"></div>
         </footer>
       </div>
     </main>

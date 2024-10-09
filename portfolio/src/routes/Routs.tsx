@@ -33,7 +33,7 @@ export default () => {
           onClick={topFunction}
           id="myBtn"
           title="Go to top"
-          className={`z-10 bottom-0 right-0 bg-raisin-black-300 hover:bg-raisin-black-600 text-lemon-chiffon font-bold py-2 px-2 rounded-full mr-4 mb-4 ${
+          className={`z-10 bottom-0 right-0 bg-raisin-black-300 hover:bg-raisin-black-600 text-lemon-chiffon dark:text-brunswick-green dark:bg-platinum dark:hover:bg-non-photo-blue font-bold py-2 px-2 rounded-full mr-4 mb-4 ${
             scrol ? 'fixed' : 'hidden'
           }`}
         >
