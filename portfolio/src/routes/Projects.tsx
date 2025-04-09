@@ -4,6 +4,7 @@ export default () => {
   return (
     <main className="md:grid grid-cols-12 mx-auto w-5/6">
       <Project
+      link='https://axxes-conference-tool.netlify.app/'
         projectName="industry Project"
         projectText="The second project for school and we had a beautiful project. we had the fun of making a project for Axxes. We made a conference tool whit a website and app. I was responsible for the backend and a part of the website and app."
         listTegnologys={[

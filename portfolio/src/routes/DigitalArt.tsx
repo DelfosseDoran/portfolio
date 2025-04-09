@@ -1,4 +1,5 @@
 import Imgage from '../components/Image';
+import React,{useEffect} from 'react';
 
 export default () => {
   return (
@@ -50,7 +51,7 @@ export default () => {
           alt="Digital Art"
           divClass="lg:row-span-4 row-span-3 lg:col-span-2"
         />
-        <div className="lg:hidden row-span-2 bg-royal-purple"></div>
+        <div className="lg:hidden row-span-2 bg-royal-purple dark:bg-raspberry-rose"></div>
         <Imgage
           link="art/space_zmmzyx.jpg"
           alt="Digital Art"
@@ -61,7 +62,7 @@ export default () => {
           alt="Digital Art"
           // row="row-span-3"
         />
-        <div className=" col-span-3 bg-royal-purple"></div>
+        <div className=" col-span-3 bg-royal-purple dark:bg-raspberry-rose"></div>
         {/* <Art
           link="https://media.githubusercontent.com/media/DelfosseDoran/portfolio/main/portfolio/src/assets/photos/art/trap.jpg"
           alt="Digital Art"
@@ -69,7 +70,7 @@ export default () => {
           row="row-span-3"
         /> */}
       </div>
-      <div className="absolute bg-royal-purple w-full h-12"></div>
+      <div className="absolute bg-royal-purple dark:bg-raspberry-rose w-full h-12"></div>
     </>
   );
 };

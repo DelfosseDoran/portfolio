@@ -3,22 +3,14 @@ import { Cloudinary } from '@cloudinary/url-gen';
 // Import plugins
 import {
   AdvancedImage,
-  lazyload,
-  accessibility,
   responsive,
-  placeholder,
 } from '@cloudinary/react';
-import { fill } from '@cloudinary/url-gen/actions/resize';
-import { full } from '@cloudinary/url-gen/qualifiers/fontHinting';
 import { Delivery } from '@cloudinary/url-gen/actions';
-import { auto } from '@cloudinary/url-gen/qualifiers/quality';
-import { Reshape } from '@cloudinary/url-gen/actions/reshape';
-
 export default ({
   link,
   alt,
   divClass,
-  color = 'bg-royal-purple',
+  color = 'bg-royal-purple dark:bg-raspberry-rose',
 }: {
   link: string;
   alt: string;

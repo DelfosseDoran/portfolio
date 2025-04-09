@@ -51,14 +51,14 @@ export default ({
           ]}
         />
       </div>
-      <div className=" lg:w-3/5 bg-tea-green dark:bg-gradient-to-br dark:from-pale-purple dark:via-pale-purple dark:to-persian-pink dark:text-rich-black flex flex-col justify-between p-2 h-fit xl:rounded-lg rounded-b-lg  shadow-lg">
+      <div className=" lg:w-3/5 bg-tea-green dark:bg-gradient-to-br dark:from-pale-purple dark:via-pale-purple dark:to-persian-pink dark:text-dark-purple flex flex-col justify-between p-2 h-fit xl:rounded-lg rounded-b-lg  shadow-lg">
         <h1 className="mb-4 text-2xl font-medium">{projectName}</h1>
         <p className="mb-2 xl:text-xl font-Signika">{projectText}</p>
         <div>
           {link ? (
             <div className="my-3">
               <a
-                className="my-2 bg-Feldgrau p-2 text-lemon-chiffon rounded-md"
+                className="my-2 bg-Feldgrau dark:bg-raspberry-rose p-2 text-lemon-chiffon rounded-md"
                 href={link}
               >
                 the website

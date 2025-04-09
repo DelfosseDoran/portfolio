@@ -33,16 +33,24 @@ module.exports = {
           "croatia": "#E26D5A",
           "italy": "#EF7674",
         },
+        "countries-dark": {
+          "oman": "#EEC170",
+          "finland": "#A4A8D1",
+          "belgium": "#BFD7B5",
+          "canada": "#773344",
+          "croatia": "#E26D5A",
+          "italy": "#326273",
+        },
         //dark mode
-        "rich-black": "#040D12",
-        "platinum":"#CCDBDC",
-        "non-photo-blue":"#80ced7",
-        "brunswick-green": "#27543F",
-        "royal-blue": "#04265e",
-        "white": "#fff",
-        "grape":"#6632b3",
-        "persian-pink":"#db84b2",
-        "pale-purple":"#eeddf2"
+        "dark-purple": "#382633",
+        "platinum": "#CCDBDC",
+        "celeste": "#BCF8EC",
+        "periwinkle": "#AFAFDC",
+        "midnight-green": "#0B5563",
+        "grape": "#6632b3",
+        "persian-pink": "#db84b2",
+        "pale-purple": "#eeddf2",
+        "raspberry-rose": "#B5446E"
       },
       fontFamily: {
         sans: ['Sono'],
@@ -56,4 +64,5 @@ module.exports = {
     },
   },
   plugins: [],
+  darkMode: 'class'
 }

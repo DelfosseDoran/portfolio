@@ -14,7 +14,7 @@ export default ({
   region?: string;
 }) => {
   return (
-    <div className="mx-auto mb-6 flex h-full w-80 flex-col justify-between bg-indian-red md:mb-0 rounded-lg">
+    <div className="mx-auto mb-6 flex h-full w-80 flex-col justify-between bg-indian-red dark:bg-midnight-green md:mb-0 rounded-lg">
       <div>
         <img
           className="w-[320px] rounded-lg shadow-lg"
