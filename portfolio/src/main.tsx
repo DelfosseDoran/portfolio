@@ -80,7 +80,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <div className="min-h-screen bg-lemon-chiffon dark:bg-dark-purple dark:text-platinum font-sans over">
+    <div className="min-h-screen overflow-x-hidden w-screen bg-lemon-chiffon dark:bg-dark-purple dark:text-platinum font-sans over">
         <RouterProvider router={router} />
     </div>
   </React.StrictMode>
