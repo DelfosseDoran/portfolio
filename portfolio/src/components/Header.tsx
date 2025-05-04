@@ -42,11 +42,13 @@ export default () => {
     }
   }, [lightMode]);
 
-  useEffect(() => {
-    document.body.style.overflow = enabled ? 'hidden' : 'auto';
-  }, [enabled]);
+useEffect(() => {
+  document.body.style.overflowY = enabled ? 'hidden' : 'auto';
+  document.body.style.width = '100vw';
+  document.body.style.overflowX = 'hidden'; // <== voeg deze regel toe
+}, [enabled]);
   return (
-    <header className="md:pb-4  pb-2 z-50" >
+    <header className="md:pb-4 w-screen  pb-2 z-50" >
       <div className="flex justify-between items-center p-8 pb-0 w-full">
         <AdvancedImage
           alt={'Digital Art'}
@@ -63,21 +65,21 @@ export default () => {
         </button>
       </div>
       <div
-        className={`z-50 absolute top-0 right-0 w-screen h-screen bg-lemon-chiffon dark:bg-dark-purple transform transition-transform duration-300 ease-in-out ${
+        className={`z-50 fixed  inset-0 w-screen h-screen bg-lemon-chiffon dark:bg-dark-purple transform transition-transform duration-300 ease-in-out ${
           enabled ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <div className={`w-full items-center max-w-5xl h-full p-10 flex justify-between gap-5 mx-auto`}>
+        <div className={`w-full items-center max-w-5xl h-full p-10 flex justify-end sm:justify-between gap-5 mx-auto`}>
           <AdvancedImage
             alt={'Digital Art'}
-            className=" bg-platinum h-full max-w-[50%] w-fit p-8 rounded-md  object-contain"
+            className=" sm:block hidden bg-platinum h-full max-w-[50%] w-fit p-8 rounded-md  object-contain"
             cldImg={myImage}
             plugins={[
               responsive({
                 steps: [275, 300, 350, 400, 500, 600, 650, 800, 900, 1200],
               }),
             ]}
-          />
+            />
           <div className="flex w-fit justify-between h-full flex-col items-end">
             <div className="">
               <button onClick={() => setEnabled(false)}>
