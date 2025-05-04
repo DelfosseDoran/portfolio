@@ -46,7 +46,7 @@ export default () => {
     document.body.style.overflow = enabled ? 'hidden' : 'auto';
   }, [enabled]);
   return (
-    <header className="md:pb-4  pb-2">
+    <header className="md:pb-4  pb-2 z-50" >
       <div className="flex justify-between items-center p-8 pb-0 w-full">
         <AdvancedImage
           alt={'Digital Art'}
@@ -63,14 +63,14 @@ export default () => {
         </button>
       </div>
       <div
-        className={`absolute top-0 right-0 w-screen h-screen bg-lemon-chiffon dark:bg-dark-purple transform transition-transform duration-300 ease-in-out ${
+        className={`z-50 absolute top-0 right-0 w-screen h-screen bg-lemon-chiffon dark:bg-dark-purple transform transition-transform duration-300 ease-in-out ${
           enabled ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <div className={` max-w-5xl h-full p-10 flex justify-between  mx-auto`}>
+        <div className={`w-full items-center max-w-5xl h-full p-10 flex justify-between gap-5 mx-auto`}>
           <AdvancedImage
             alt={'Digital Art'}
-            className=" bg-platinum p-8 rounded-md"
+            className=" bg-platinum h-full max-w-[50%] w-fit p-8 rounded-md  object-contain"
             cldImg={myImage}
             plugins={[
               responsive({
@@ -78,13 +78,13 @@ export default () => {
               }),
             ]}
           />
-          <div className="flex justify-between flex-col items-end">
+          <div className="flex w-fit justify-between h-full flex-col items-end">
             <div className="">
               <button onClick={() => setEnabled(false)}>
                 <X />
               </button>
             </div>
-            <div className="flex flex-col  items-end">
+            <div className="flex justify-between flex-col  items-end">
               {links.map((item, index) => {
                 let scale = 'scale-100';
                 if (hoveredIndex === index) scale = 'scale-150';
