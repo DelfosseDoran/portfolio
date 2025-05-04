@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 
 export default () => {
   const [lightMode, setLightMode] = useState(false);
-  const [enabled, setEnabled] = useState(true);
+  const [enabled, setEnabled] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const links = [
