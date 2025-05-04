@@ -65,7 +65,7 @@ useEffect(() => {
         </button>
       </div>
       <div
-        className={`z-50 fixed  inset-0 w-screen h-screen bg-lemon-chiffon dark:bg-dark-purple transform transition-transform duration-300 ease-in-out ${
+        className={`z-50 fixed  inset-0 w-screen h-screen-dvh bg-lemon-chiffon dark:bg-dark-purple transform transition-transform duration-300 ease-in-out ${
           enabled ? 'translate-x-0' : 'translate-x-full'
         }`}
       >

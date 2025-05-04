@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        'screen-dvh': '100dvh', // maakt `h-screen-dvh` beschikbaar
+      },
       colors: {
         "light-orange": "#44bba4",
         "lemon-chiffon": "#FFFBEB",
