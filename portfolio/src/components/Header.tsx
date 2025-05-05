@@ -16,13 +16,16 @@ export default () => {
     },
   });
 
-  const [lightMode, setLightMode] = useState(false);
+const [lightMode, setLightMode] = useState(() => {
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+});
   const [enabled, setEnabled] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const myImage = cld.image('art/portret_mro6gt.png');
   myImage.format('webp');
   myImage.delivery(Delivery.quality('auto'));
+  const test =window.matchMedia('(prefers-color-scheme: dark)')
 
   const links = [
     {
