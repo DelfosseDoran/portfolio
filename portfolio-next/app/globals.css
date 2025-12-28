@@ -1,6 +1,62 @@
 /* Load Tailwind's reset + utilities */
-@import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
+
+@theme {
+  --color-light-orange: #44bba4;
+  --color-lemon-chiffon: #FFFBEB;
+  --color-Feldgrau: #3b5249;
+  --color-cool-grey: #A4A8D1;
+  --color-indian-red: #e5989b;
+  --color-tea-green: #BFD7B5;
+  --color-royal-purple: #7E5A9B;
+
+  --color-raisin-black-100: #F7F3F5;
+  --color-raisin-black-200: #DECED6;
+  --color-raisin-black-300: #C6A9B8;
+  --color-raisin-black-400: #AD859A;
+  --color-raisin-black-500: #93627B;
+  --color-raisin-black-600: #6E495C;
+  --color-raisin-black-700: #49313E;
+  --color-raisin-black-800: #25181F;
+  --color-raisin-black-900: #0C080A;
+
+  --color-dark-purple: #382633;
+  --color-platinum: #CCDBDC;
+  --color-celeste: #BCF8EC;
+  --color-periwinkle: #AFAFDC;
+  --color-midnight-green: #0B5563;
+  --color-grape: #6632b3;
+  --color-persian-pink: #db84b2;
+  --color-pale-purple: #eeddf2;
+  --color-raspberry-rose: #B5446E;
+
+  /* landen kleuren */
+  --color-oman: #EEC170;
+  --color-finland: #5EB1BF;
+  --color-belgium: #679436;
+  --color-canada: #773344;
+  --color-croatia: #E26D5A;
+  --color-italy: #EF7674;
+
+  --color-oman-dark: #EEC170;
+  --color-finland-dark: #A4A8D1;
+  --color-belgium-dark: #BFD7B5;
+  --color-canada-dark: #773344;
+  --color-croatia-dark: #E26D5A;
+  --color-italy-dark: #326273;
+
+   /* Heights */
+  --height-screen-dvh: 100dvh;
+
+  /* Margins */
+  --m-1/4: 25%;
+  --m-1/8: 12.5%;
+
+  /* Fonts */
+  --font-sans: 'Sono', sans-serif;
+  --font-signika: 'Signika Negative', sans-serif;
+}
+
 
 /* --- Your custom styles --- */
 

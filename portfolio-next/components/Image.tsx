@@ -1,6 +1,6 @@
-import { Cloudinary } from '@cloudinary/url-gen';
+"use client";
 
-// Import plugins
+import { Cloudinary } from '@cloudinary/url-gen';
 import {
   AdvancedImage,
   responsive,

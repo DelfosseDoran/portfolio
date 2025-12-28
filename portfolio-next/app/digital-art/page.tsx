@@ -1,5 +1,4 @@
 import Imgage from '../../components/Image';
-import React,{useEffect} from 'react';
 
 export default () => {
   return (
