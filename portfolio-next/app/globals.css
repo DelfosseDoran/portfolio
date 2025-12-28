@@ -1,0 +1,26 @@
+/* Load Tailwind's reset + utilities */
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+/* --- Your custom styles --- */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c6a9b8 #fffbeb00;
+}
+
+/* Chrome, Edge, Safari scrollbars */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #6e495c;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #C6A9B8;
+  border-radius: 14px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
