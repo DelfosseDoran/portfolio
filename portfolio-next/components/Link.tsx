@@ -1,7 +1,8 @@
 import { LucideIcon, Home } from "lucide-react";
 import Link from 'next/link';
+import { JSX } from "react";
 
-export default ({
+const LinkCustom= ({
   link,
   text,
   colorText,
@@ -35,3 +36,5 @@ export default ({
     </div>
   );
 };
+
+export default LinkCustom;
