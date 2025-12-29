@@ -5,19 +5,15 @@ export default {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-      extend: {
-        height: {
-          "screen-dvh": "100dvh",
-        },
-        fontFamily: {
-          sans: ["Sono"],
-          Signika: ["Signika Negative"],
-        },
-        margin: {
-          "1/4": "25%",
-          "1/8": "12.5%",
-        },
+    extend: {
+      height: {
+        "screen-dvh": "100dvh",
+      },
+      margin: {
+        "1/4": "25%",
+        "1/8": "12.5%",
       },
     },
+  },
   plugins: [],
 };

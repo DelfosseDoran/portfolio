@@ -16,31 +16,29 @@ const Home = () => {
               </h1>
               {month === 5 ? <p className="pl-4">🌈happy pride🌈</p> : null}
             </div>
-            <div className="lg:-ml-[25%] flex bg-cool-grey w-screen dark:bg-midnight-green">
+            <div className="lg:-ml-[25%] flex bg-vintage-berry text-lemon-chiffon w-screen dark:bg-midnight-green">
               <div className="lg:ml-[12.5%] sm:flex gap-8 lg:w-2/4 p-4 font-medium">
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col  gap-2">
                   <h2 className="text-2xl sm:text-3xl">Work:</h2>
-                  <div className=" text-lg">
-                    <p className="font-Signika font-bold text-xl">
+                  <div className="font-signika text-lg">
+                    <p className="font-bold text-xl">
                       Professional Media Group
                     </p>
-                    <div className="pl-2 font-Signika">
+                    <div className="pl-2">
                       <p>Full-stack web developer</p>
                       <p>(2024-now)</p>
                     </div>
                   </div>
-                  <div className=" text-lg">
-                    <p className="font-Signika font-bold text-xl">
-                      ’t Houtvuur
-                    </p>
-                    <div className="pl-2 font-Signika">
+                  <div className="font-signika text-lg">
+                    <p className="font-bold text-xl">’t Houtvuur</p>
+                    <div className="pl-2">
                       <p>waiter</p>
                       <p>(2019-now)</p>
                     </div>
                   </div>
-                  <div className=" text-lg">
-                    <p className="font-Signika font-bold text-xl">Goomyx</p>
-                    <div className="font-Signika pl-2">
+                  <div className="font-signika text-lg">
+                    <p className="font-bold text-xl">Goomyx</p>
+                    <div className="pl-2">
                       <p>Full-stack web developer(intern)</p>
                       <p>(2024-2024) </p>
                     </div>
@@ -49,7 +47,7 @@ const Home = () => {
                 <div className="flex flex-col gap-2">
                   <h2 className="text-2xl sm:text-3xl">Schools:</h2>
                   <div>
-                    <h3 className="font-Signika font-bold text-xl">
+                    <h3 className="font-signika font-bold text-xl">
                       VTI Waregem (2015 - 2021)
                     </h3>
                     <div className="pl-2 text-lg">
@@ -60,7 +58,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div>
-                    <h3 className="font-Signika font-bold text-xl">
+                    <h3 className="font-signika font-bold text-xl">
                       Howest (2021 - 2024)
                     </h3>
                     <div className="pl-2 text-lg">
@@ -81,7 +79,7 @@ const Home = () => {
                 <h1 className="mb-2 text-2xl sm:text-3xl font-medium">
                   Projects
                 </h1>
-                <p className="font-Signika text-xl">
+                <p className="font-signika text-xl">
                   Learn more about the projects I made. Be sure to check out
                   what was made and how it was done.
                 </p>
@@ -99,7 +97,7 @@ const Home = () => {
                 <h1 className="mb-2 text-2xl sm:text-3xl font-medium">
                   Digital Art
                 </h1>
-                <p className="font-Signika text-xl">
+                <p className="font-signika text-xl">
                   Check out the works that I have already made. Everything is
                   made with photoshop or illustrator.
                 </p>
@@ -120,7 +118,7 @@ const Home = () => {
                 <h1 className="mb-2 text-2xl sm:text-3xl font-medium">
                   Photography
                 </h1>
-                <p className="font-Signika text-xl">
+                <p className="font-signika text-xl">
                   I love travelling, I love nature and I love photography so I
                   started combining them. Now take a look at where I went.
                 </p>
@@ -137,42 +135,42 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <footer className=" bg-cool-grey lg:bg-transparent  w-full items-center  lg:px-0 lg:w-3/4 mx-auto">
+        <footer className="  w-full items-center  lg:px-0 lg:w-3/4 mx-auto">
           <div className="flex gap-2 justify-between p-4 ">
             <div className=" gap-4">
               <h1 className=" mb-2 text-2xl sm:text-3xl font-medium">
                 Contact me
               </h1>
-              <p className="font-Signika font-light">Get in touch.</p>
+              <p className="font-signika font-light">Get in touch.</p>
             </div>
             <div className="sm:flex justify-end gap-4 items-center sm:flex-row grid grid-cols-2">
               <a
                 href="mailto:doran.delfosse@gmail.com"
                 className="p-2 lg:bg-raisin-black-200 w-fit h-fit lg:focus:bg-raisin-black-400 lg:hover:bg-raisin-black-400 rounded-lg dark:lg:bg-platinum dark:lg:hover:bg-celeste dark:lg:focus:bg-celeste"
               >
-                <Mail className=" stroke-raisin-black-600 lg:stroke-raisin-black-500 focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12 dark:stroke-platinum dark:lg:stroke-raisin-black-500 dark:focus:stroke-stroke-raisin-black-700 dark:hover:stroke-stroke-raisin-black-700" />
+                <Mail className=" stroke-vintage-berry focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12 dark:stroke-platinum dark:lg:stroke-raisin-black-500 dark:focus:stroke-stroke-raisin-black-700 dark:hover:stroke-stroke-raisin-black-700" />
               </a>
               <a
                 href="https://www.instagram.com/dorandelfosse/"
                 className="p-2 lg:bg-raisin-black-200 w-fit h-fit lg:focus:bg-raisin-black-400 lg:hover:bg-raisin-black-400 rounded-lg dark:lg:bg-platinum dark:lg:hover:bg-celeste dark:lg:focus:bg-celeste"
               >
-                <Instagram className=" stroke-raisin-black-600 lg:stroke-raisin-black-500 focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12 dark:stroke-platinum dark:lg:stroke-raisin-black-500 dark:focus:stroke-stroke-raisin-black-700 dark:hover:stroke-stroke-raisin-black-700" />
+                <Instagram className=" stroke-vintage-berry focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12 dark:stroke-platinum dark:lg:stroke-raisin-black-500 dark:focus:stroke-stroke-raisin-black-700 dark:hover:stroke-stroke-raisin-black-700" />
               </a>
               <a
                 href="https://github.com/DelfosseDoran"
                 className="p-2 lg:bg-raisin-black-200 w-fit h-fit lg:focus:bg-raisin-black-400 lg:hover:bg-raisin-black-400 rounded-lg dark:lg:bg-platinum dark:lg:hover:bg-celeste dark:lg:focus:bg-celeste"
               >
-                <Github className="stroke-raisin-black-600 lg:stroke-raisin-black-500 focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12 dark:stroke-platinum dark:lg:stroke-raisin-black-500 dark:focus:stroke-stroke-raisin-black-700 dark:hover:stroke-stroke-raisin-black-700" />
+                <Github className="stroke-vintage-berry focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12 dark:stroke-platinum dark:lg:stroke-raisin-black-500 dark:focus:stroke-stroke-raisin-black-700 dark:hover:stroke-stroke-raisin-black-700" />
               </a>
               <a
                 href="https://be.linkedin.com/in/doran-delfosse-684290283"
                 className="p-2 lg:bg-raisin-black-200 w-fit h-fit lg:focus:bg-raisin-black-400 lg:hover:bg-raisin-black-400 rounded-lg dark:lg:bg-platinum dark:lg:hover:bg-celeste dark:lg:focus:bg-celeste"
               >
-                <Linkedin className="stroke-raisin-black-600 lg:stroke-raisin-black-500 focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12 dark:stroke-platinum dark:lg:stroke-raisin-black-500 dark:focus:stroke-stroke-raisin-black-700 dark:hover:stroke-stroke-raisin-black-700" />
+                <Linkedin className="stroke-vintage-berry focus:stroke-raisin-black-700 hover:stroke-raisin-black-700 w-8 h-8 sm:w-12 sm:h-12 dark:stroke-platinum dark:lg:stroke-raisin-black-500 dark:focus:stroke-stroke-raisin-black-700 dark:hover:stroke-stroke-raisin-black-700" />
               </a>
             </div>
           </div>
-          <div className="absolute lg:hidden bg-midnight-green lg:bg-transparent w-full h-12"></div>
+          <div className="absolute lg:hidden bg-transparent w-full h-12"></div>
         </footer>
       </div>
     </main>

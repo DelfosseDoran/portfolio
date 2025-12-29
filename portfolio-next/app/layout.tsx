@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from '../components/Header';
 import { Signika_Negative, Sono } from 'next/font/google';
 import { ArrowBigUp } from 'lucide-react';
+import { ThemeProvider } from "next-themes";
 // import { useEffect, useState } from "react";
 
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ const signika = Signika_Negative({
 const sono = Sono({
   subsets: ['latin'],
   weight: ['400', '700'],
-  variable: '--font-sans', // optioneel, voor CSS variabele
+  variable: '--font-sono', // optioneel, voor CSS variabele
 });
 
 export default function RootLayout({
@@ -50,8 +51,9 @@ export default function RootLayout({
     };
   return (
     <html lang="en">
-      <body>
-        <div className="min-h-screen overflow-x-hidden w-screen bg-lemon-chiffon dark:bg-dark-purple dark:text-platinum font-sans over">
+      <body className={`${sono.variable} ${signika.variable}`}>
+         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true} enableColorScheme={false}>
+        <div className="min-h-screen overflow-x-hidden w-screen bg-lemon-chiffon dark:bg-dark-purple font-sono dark:text-platinum over">
           {/*<div className=" min-h-screen">
              <button
               onClick={topFunction}
@@ -66,13 +68,14 @@ export default function RootLayout({
           </div>*/}
           <Header />
           {children}
-          <footer className="flex justify-center opacity-75">
-            <div>
+          <footer className="">
+            <div className="flex flex-col items-center justify-center ">
               <p>By Doran Delfosse</p>
               <p className="text-center">© {(new Date().getFullYear())}</p>
             </div>
           </footer>
         </div>
+        </ThemeProvider>
       </body>
     </html>
   );

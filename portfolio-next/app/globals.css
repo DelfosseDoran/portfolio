@@ -3,61 +3,61 @@
 
 @theme {
   --color-light-orange: #44bba4;
-  --color-lemon-chiffon: #FFFBEB;
+  --color-lemon-chiffon: #fffbeb;
   --color-Feldgrau: #3b5249;
-  --color-cool-grey: #A4A8D1;
+  --color-cool-grey: #a4a8d1;
   --color-indian-red: #e5989b;
-  --color-tea-green: #BFD7B5;
-  --color-royal-purple: #7E5A9B;
+  --color-tea-green: #bfd7b5;
+  --color-royal-purple: #7e5a9b;
+  --color-vintage-berry: #883955;
 
-  --color-raisin-black-100: #F7F3F5;
-  --color-raisin-black-200: #DECED6;
-  --color-raisin-black-300: #C6A9B8;
-  --color-raisin-black-400: #AD859A;
-  --color-raisin-black-500: #93627B;
-  --color-raisin-black-600: #6E495C;
-  --color-raisin-black-700: #49313E;
-  --color-raisin-black-800: #25181F;
-  --color-raisin-black-900: #0C080A;
+  --color-raisin-black-100: #f7f3f5;
+  --color-raisin-black-200: #deced6;
+  --color-raisin-black-300: #c6a9b8;
+  --color-raisin-black-400: #ad859a;
+  --color-raisin-black-500: #93627b;
+  --color-raisin-black-600: #6e495c;
+  --color-raisin-black-700: #49313e;
+  --color-raisin-black-800: #25181f;
+  --color-raisin-black-900: #0c080a;
 
   --color-dark-purple: #382633;
-  --color-platinum: #CCDBDC;
-  --color-celeste: #BCF8EC;
-  --color-periwinkle: #AFAFDC;
-  --color-midnight-green: #0B5563;
+  --color-platinum: #ccdbdc;
+  --color-celeste: #bcf8ec;
+  --color-periwinkle: #afafdc;
+  --color-midnight-green: #0b5563;
   --color-grape: #6632b3;
   --color-persian-pink: #db84b2;
   --color-pale-purple: #eeddf2;
-  --color-raspberry-rose: #B5446E;
+  --color-raspberry-rose: #b5446e;
 
   /* landen kleuren */
-  --color-oman: #EEC170;
-  --color-finland: #5EB1BF;
+  --color-oman: #eec170;
+  --color-finland: #5eb1bf;
   --color-belgium: #679436;
   --color-canada: #773344;
-  --color-croatia: #E26D5A;
-  --color-italy: #EF7674;
+  --color-croatia: #e26d5a;
+  --color-italy: #ef7674;
 
-  --color-oman-dark: #EEC170;
-  --color-finland-dark: #A4A8D1;
-  --color-belgium-dark: #BFD7B5;
+  --color-oman-dark: #eec170;
+  --color-finland-dark: #a4a8d1;
+  --color-belgium-dark: #bfd7b5;
   --color-canada-dark: #773344;
-  --color-croatia-dark: #E26D5A;
+  --color-croatia-dark: #e26d5a;
   --color-italy-dark: #326273;
 
-   /* Heights */
+  /* Heights */
   --height-screen-dvh: 100dvh;
 
   /* Margins */
   --m-1/4: 25%;
   --m-1/8: 12.5%;
 
-  /* Fonts */
-  --font-sans: 'Sono', sans-serif;
-  --font-signika: 'Signika Negative', sans-serif;
+  --font-signika: var(--font-signika); /* Signika Negative */
+  --font-sono: var(--font-sono); /* Sono */
 }
 
-
+@custom-variant dark (&:where(.dark, .dark *));
 /* --- Your custom styles --- */
 
 * {
@@ -75,7 +75,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #C6A9B8;
+  background-color: #c6a9b8;
   border-radius: 14px;
   border: 3px solid transparent;
   background-clip: content-box;

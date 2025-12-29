@@ -1,8 +1,27 @@
 import Project from '../../components/Project';
 
-export default () => {
+const projects= () => {
   return (
     <main className="md:grid grid-cols-12 mx-auto w-5/6">
+      <Project
+        projectName="industry Project"
+        projectText="The second project for school and we had a beautiful project. we had the fun of making a project for Axxes. We made a conference tool whit a website and app. I was responsible for the backend and a part of the website and app."
+        listTegnologys={[
+          'React',
+          'Typescript',
+          'Tailwind',
+          'React Router',
+          'React Native',
+          'Expo',
+          'Dotnet',
+          'C#',
+          'Azure',
+        ]}
+        srcLink="projects/59d83e73-9596-4f1e-9878-ef6fe53c3585"
+        start="col-start-1"
+          reverse="flex-row"
+        alt="foto of portfolio"
+      />
       <Project
       link='https://axxes-conference-tool.netlify.app/'
         projectName="industry Project"
@@ -19,10 +38,24 @@ export default () => {
           'Azure',
         ]}
         srcLink="projects/314shots_so_gio0nk.png"
-        start="col-start-2"
-        reverse="flex-row-reverse"
+        start="col-start-1"
+          reverse="flex-row"
         alt="foto of portfolio"
       />
+        <Project
+          projectName="Motion Design"
+          projectText="For this project, I created an onboarding experience for an app. I chose PayPal and demonstrated what I had learned in this class."
+          listTegnologys={[
+            'Adobe After Effects',
+            'Adobe XD'
+          ]}
+          srcLink="projects/OnBoarding_pnwalj"
+          start="col-start-2"
+        reverse="flex-row-reverse"
+          
+          alt="film project"
+          isVideo={true}
+        />
       <Project
         projectName="Portfolio"
         projectText="For Frontend Development class, we had to make a portfolio. Look how I managed."
@@ -78,3 +111,5 @@ export default () => {
     </main>
   );
 };
+
+export default projects
