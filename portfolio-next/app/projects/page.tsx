@@ -1,65 +1,51 @@
-import Project from '../../components/Project';
+import Project from "../../components/Project";
 
-const projects= () => {
+const projects = () => {
   return (
     <main className="md:grid grid-cols-12 mx-auto w-5/6">
       <Project
-        projectName="industry Project"
-        projectText="The second project for school and we had a beautiful project. we had the fun of making a project for Axxes. We made a conference tool whit a website and app. I was responsible for the backend and a part of the website and app."
-        listTegnologys={[
-          'React',
-          'Typescript',
-          'Tailwind',
-          'React Router',
-          'React Native',
-          'Expo',
-          'Dotnet',
-          'C#',
-          'Azure',
-        ]}
+        projectName="New Interface Design"
+        projectText="In this course, we explored UI/UX design for non-standard interfaces, such as smartwatches and automotive displays. Using Adobe XD, I designed an Android Auto version of my Car Sharing App, specifically optimizing the layout and navigation for a safe and intuitive in-car experience."
+        listTegnologys={["Adobe XD"]}
         srcLink="projects/59d83e73-9596-4f1e-9878-ef6fe53c3585"
-        start="col-start-1"
-          reverse="flex-row"
+        start="col-start-2"
+        reverse="flex-row-reverse"
         alt="foto of portfolio"
       />
       <Project
-      link='https://axxes-conference-tool.netlify.app/'
+        link="https://axxes-conference-tool.netlify.app/"
         projectName="industry Project"
         projectText="The second project for school and we had a beautiful project. we had the fun of making a project for Axxes. We made a conference tool whit a website and app. I was responsible for the backend and a part of the website and app."
         listTegnologys={[
-          'React',
-          'Typescript',
-          'Tailwind',
-          'React Router',
-          'React Native',
-          'Expo',
-          'Dotnet',
-          'C#',
-          'Azure',
+          "React",
+          "Typescript",
+          "Tailwind",
+          "React Router",
+          "React Native",
+          "Expo",
+          "Dotnet",
+          "C#",
+          "Azure",
         ]}
         srcLink="projects/314shots_so_gio0nk.png"
         start="col-start-1"
-          reverse="flex-row"
+        reverse="flex-row"
         alt="foto of portfolio"
       />
-        <Project
-          projectName="Motion Design"
-          projectText="For this project, I created an onboarding experience for an app. I chose PayPal and demonstrated what I had learned in this class."
-          listTegnologys={[
-            'Adobe After Effects',
-            'Adobe XD'
-          ]}
-          srcLink="projects/OnBoarding_pnwalj"
-          start="col-start-2"
+      <Project
+        projectName="Motion Design"
+        projectText="For this project, I created an onboarding experience for an app. I chose PayPal and demonstrated what I had learned in this class."
+        listTegnologys={["Adobe After Effects", "Adobe XD"]}
+        srcLink="projects/OnBoarding_pnwalj"
+        start="col-start-2"
         reverse="flex-row-reverse"
-          
-          alt="film project"
-          isVideo={true}
-        />
+        alt="film project"
+        isVideo={true}
+      />
       <Project
         projectName="Portfolio"
         projectText="For Frontend Development class, we had to make a portfolio. Look how I managed."
-        listTegnologys={['React', 'Typescript', 'Tailwind', 'React Router']}
+        listTegnologys={["React", "Typescript", "Tailwind", "React Router"]}
         srcLink="projects/55shots_so_od46ig.png"
         start="col-start-1"
         alt="foto of portfolio"
@@ -67,7 +53,7 @@ const projects= () => {
       <Project
         projectName="Car Sharing App"
         projectText="This is an app for people who share a car. To track the routes from the divrent drivers. So you can see how much you have to pay the owner."
-        listTegnologys={['React Native', 'Expo', 'Dotnet', 'azure', 'C#']}
+        listTegnologys={["React Native", "Expo", "Dotnet", "azure", "C#"]}
         srcLink="projects/218shots_so_qzudqb.png"
         start="col-start-2"
         reverse="flex-row-reverse"
@@ -77,13 +63,13 @@ const projects= () => {
         projectName="Interactive Poles"
         projectText="This was a project for Howest. My team created a game for all ages for a school. We printed poles and made them interactive with our software."
         listTegnologys={[
-          'raspberry pi',
-          'esp',
-          'Python',
-          'C++',
-          'HTML',
-          'CSS',
-          'Javascript',
+          "raspberry pi",
+          "esp",
+          "Python",
+          "C++",
+          "HTML",
+          "CSS",
+          "Javascript",
         ]}
         srcLink="projects/589shots_so_rfmyqd.jpg"
         start="col-start-1"
@@ -92,7 +78,7 @@ const projects= () => {
       <Project
         projectName="Europe Population"
         projectText="I had to make a website for the Interaction Design course. The website compares the population of European countries."
-        listTegnologys={['HTML', 'CSS', 'Javascript']}
+        listTegnologys={["HTML", "CSS", "Javascript"]}
         srcLink="projects/782shots_so_metlyd.png"
         link="https://delfossedoran.github.io/eindopdracht-Interaction/"
         start="col-start-2"
@@ -102,7 +88,7 @@ const projects= () => {
       <Project
         projectName="Project One"
         projectText="It was the first project I made: to monitor the gasoline consumption, speed and distance of our car."
-        listTegnologys={['raspberry pi', 'Python', 'HTML', 'CSS', 'Javascript']}
+        listTegnologys={["raspberry pi", "Python", "HTML", "CSS", "Javascript"]}
         srcLink="projects/20220614_113446_hpiuhn.jpg"
         link="https://www.instructables.com/Project-One/"
         start="col-start-1"
@@ -112,4 +98,4 @@ const projects= () => {
   );
 };
 
-export default projects
+export default projects;
